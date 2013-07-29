@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+        
+        <!-- Minimalist CSS -->
+        <link rel="stylesheet" type="text/css" href="/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="/css/white.css" title="white" />
+
+        <!-- Minimalist scriprs -->
+        <script type='text/javascript' src='/scripts/jquery.js'></script>
+        <script type="text/javascript" src='/scripts/mootools.js'></script> 
+        <script type="text/javascript" src='/scripts/script.js'></script>
+
+    </head>
+    <body>
+
+        <div class="container">
+          <div id="page">
+            <div id="header">
+              <h1><a href="/">{{ site.title }}</a></h1>
+              <h2>{{ site.subtitle }}</h2>
+            </div>
+            <!-- <div id="leftcol">
+              leftcol
+            </div> -->
+            <div id="wrapper" class="clearfix">
+              <div id="maincol">
+                {{ content }}
+              </div>
+            </div>
+          </div>
+            <div class="footer">
+              <div class="contact">
+                <p>
+                  <a href="http://github.com/eah13/">github.com/eah13</a><br />
+                  <a href="http://twitter.com/@hauspoor/">@hauspoor</a><br />
+                  <a href="http://coursefork.org">Coursefork</a><br />
+                </p>
+              </div>
+            </div>
+        </div> <!-- /container -->
+
+    </body>
+</html>

@@ -1,0 +1,160 @@
+/*
+Theme Name: Minimalist
+Description: Fast loading minimalist theme, utilising mootools, with 5 different colour schemes and no images.
+Version: 1
+Author: Joey Robinson
+Author URI: http://www.techdesigns.co.uk
+Latest updated: 7th October 2009
+Tags: two-columns, white, black, blue, green, silver, fixed-width, left-sidebar
+*/
+html, body{ padding:20px 0px 20px 0px; margin:0; text-align:center; font-family:verdana; font-size: 13px;} 
+ 
+#page{ width:900px; text-align:left; margin-left:auto; margin-right:auto;} 
+
+#header{ position:relative; width:900px; margin: 0px; padding: 0px; height:50px; overflow-x:hidden;} 
+#header h1{ position:relative; float:left; margin:0px 0px 0px 250px; width: 650px; padding:0px; font-family:arial; font-weight:bold; font-size:20px; text-transform:uppercase;} 
+#header h1 a{ text-decoration:none;}
+#header h1 a:hover{ text-decoration:none;}
+#header h2{ position:relative; float:left; clear:left; margin:0px 0px 0px 250px; width: 650px; padding:0px; font-family:arial; font-weight:bold; font-size:14px; text-transform:uppercase;} 
+ 
+#leftcol{ width:230px; float:left; position:relative; padding: 0px 20px 0px 0px; text-align:right; overflow-x:hidden;}
+ 
+#menu {margin:0px 0px; text-align:right; font-weight:bold; font-family:arial; text-transform:uppercase; font-size:14px; }
+#menu a {font-weight:bold; font-family:arial; text-transform:uppercase; font-size:14px; text-decoration:none;}
+#menu a:hover {font-weight:bold; font-family:arial; text-transform:uppercase; font-size:14px; text-decoration:none;}
+
+h2.menuheader {cursor: pointer;font-family:arial; font-weight:bold; font-size:14px; text-transform:uppercase;margin:0px; padding:0px;}
+
+
+#menu ul {padding: 2px 0px 2px 0px; margin: 0px 0px 0px 0px;list-style: none; width:230px; clear:left; float:right;}
+#menu ul li{margin: 0px 0px 0px 0px; display: block; font-weight:bold; font-family:arial; text-transform:uppercase; font-size:14px;}
+#menu ul li a{ width: 225px; display: block; padding: 5px 0px 5px 5px; text-decoration:none; font-weight:bold; font-family:arial; text-transform:uppercase; font-size:14px; margin: 0px 0px 0px 0px; vertical-align: bottom;}
+#menu ul li a:hover{ text-decoration:none; }
+#menu ul li ul {padding: 2px 0px 2px 0px; margin: 0px 0px 0px 0px;list-style: none; clear:left; }
+#menu ul li ul li{margin: 0px 0px 0px 0px; display: block; }
+#menu ul li ul li a{ width: 205px; display: block; padding: 5px 20px 5px 5px; text-decoration:none; font-weight:bold; font-family:arial; text-transform:uppercase; font-size:14px; margin: 0px 0px 0px 0px; vertical-align: bottom;}
+#menu ul li ul li a:hover{ text-decoration:none; }
+#menu ul li ul li ul {padding: 2px 0px 2px 0px; margin: 0px 0px 0px 0px;list-style: none; clear:left; }
+#menu ul li ul li ul li{margin: 0px 0px 0px 0px; display: block; }
+#menu ul li ul li ul li a{ width: 185px; padding: 5px 40px 5px 5px; display: block; text-decoration:none; font-weight:bold; font-family:arial; text-transform:uppercase; font-size:14px; margin: 0px 0px 0px 0px; vertical-align: bottom;}
+#menu ul li ul li ul li a:hover{ text-decoration:none; }
+#menu ul li ul li ul li ul {padding: 2px 0px 2px 0px; margin: 0px 0px 0px 0px;list-style: none; clear:left; }
+#menu ul li ul li ul li ul li{margin: 0px 0px 0px 0px; display: block; }
+#menu ul li ul li ul li ul li a{ width: 165px; padding: 5px 60px 5px 5px; display: block; text-decoration:none; font-weight:bold; font-family:arial; text-transform:uppercase; font-size:14px; margin: 0px 0px 0px 0px; vertical-align: bottom;}
+#menu ul li ul li ul li ul li a:hover{ text-decoration:none; }
+
+ul#recentcomments {padding: 2px 0px 2px 0px; margin: 0px 0px 0px 0px;list-style: none; width:230px; clear:left; float:right;}
+ul#recentcomments li{margin: 0px 0px 0px 0px; display: block; font-weight:bold; font-family:arial; text-transform:uppercase; font-size:14px;}
+ul#recentcomments li a{ width: 225px; display: block; padding: 5px 0px 5px 5px; text-decoration:none; font-weight:bold; font-family:arial; text-transform:uppercase; font-size:14px; margin: 0px 0px 0px 0px; vertical-align: bottom;}
+ul#recentcomments li a:hover{ text-decoration:none; }
+#recentcomments a{ text-decoration:none; font-weight:bold; font-family:arial; text-transform:uppercase; font-size:14px;}
+#recentcomments a:hover{ text-decoration:none; font-weight:bold; font-family:arial; text-transform:uppercase; font-size:14px; }
+
+#maincol{ float: right; display:inline; position: relative; width:650px; font-family:verdana; font-size: 13px;overflow-x:hidden; text-align:left;}
+#maincol h1 {margin:0px 0px 0px 0px; padding:0px; font-family:arial; font-weight:bold; font-size:22px; text-transform:uppercase; clear:both;} 
+#maincol h2 { margin:0px 0px 0px 0px; padding:0px; font-family:arial; font-weight:bold; font-size:20px;text-transform:uppercase; clear:both;} 
+#maincol h2 a{ text-decoration:none;} 
+
+#maincol h3 { margin:0px 0px 0px 0px; padding:0px; font-family:arial; font-weight:bold; font-size:18px; text-transform:uppercase; clear:both;} 
+#maincol h4 { margin:0px 0px 0px 0px; padding:0px; font-family:arial; font-weight:bold;font-size:16px; text-transform:uppercase; clear:both;} 
+#maincol h5 { margin:0px 0px 0px 0px; padding:0px; font-family:arial; font-weight:bold; font-size:14px; text-transform:uppercase; clear:both;} 
+#maincol h6 { margin:0px 0px 0px 0px; padding:0px; font-family:arial; font-weight:bold; font-size:12px; text-transform:uppercase; clear:both;} 
+#maincol p{ font-size: 13px; line-height:1.7em; clear:left;}
+#maincol p a:hover{ text-decoration:none;}
+#maincol ul{ font-size: 13px; line-height:1.7em; clear:left;}
+#maincol ol{ font-size: 13px; line-height:1.7em; clear:left;}
+
+h2.contentheader{ cursor: pointer; position:relative; float:left; margin:0px 0px 0px 0px; padding:0px; font-family:arial; font-weight:bold; font-size:20px; text-transform:uppercase; clear:left;} 
+h2.contentheader:hover{ }
+h2.contentheader:active{ }
+
+.content{clear:both;}
+
+.permalink{ margin:0px 0px 0px 0px; padding:0px; font-family:arial; font-weight:bold; font-size:12px; text-transform:uppercase; clear:both;} 
+.permalink a{ text-decoration:none;} 
+.permalink a:hover{ text-decoration:none;} 
+
+table#calendar_wrap {width:230px; overflow:hidden;clear:both; }
+
+#wp-calendar{font-family: verdana; font-size: 13px; text-decoration:none; clear:both;width:210px; margin: 6px auto 6px auto; padding: 0px 10px 0px 10px;}
+#wp-calendar a{font-family: verdana; font-size: 13px; text-decoration:none; }
+#wp-calendar a:hover{font-family: verdana; font-size: 13px; text-decoration:none; }
+
+blockquote { margin:20px; padding:8px 8px 8px 15px;}
+blockquote p {background-color:inherit; font-size:0.9em; line-height:1.3em;}
+label {background-color:inherit; font-size:0.9em; font-weight:bold;}
+table#wp-calendar {margin:0 0 20px; width:140px;}
+code {font-size:1.2em; display:block; padding:5px 5px 5px 8px; margin:5px 0 15px 0;}
+
+
+#respond{font-weight:normal;}
+#s,#submit { font-size:0.9em; margin:0 0 16px; padding:4px; width:130px;}
+#author,#email,#url,#comment { font-family:Verdana,Tahoma,Arial,Sans-Serif; font-size:1em; margin:0; padding:4px;}
+#commentsection {margin:25px 0 0;}
+#commentsection p {margin:0 0 6px;}
+
+
+
+img.centered {display:block; margin-left:auto; margin-right:auto;}
+img.alignright {padding:4px; margin:0 0 2px 7px; display:inline;}
+img.alignleft {padding:4px; margin:0 7px 2px 0; display:inline;}
+.aligncenter { display: block; margin-left: auto; margin-right: auto;}
+.alignright {float:right;}
+.alignleft {float:left;}
+
+.divider{height: 25px; width:604px; background: url(img/divider.jpg) top center no-repeat; margin: 10px auto 5px auto;}
+.left { float:left; margin:10px 15px 10px 0;}
+.right { float:right; margin:10px 0 5px 10px;}
+.center { margin:5px auto 12px; text-align:center;}
+.textright {text-align:right;}
+.small {font-size:0.8em;}
+.bold {font-weight:bold;}
+.hide {display:none;}
+.post {margin:0px;}
+
+#postinfotext{font-family:arial; font-size: 14px; line-height:1.7em; font-weight:bold; text-transform:uppercase; padding: 0px 0px 0px 0px; margin: 0px 0px 10px 0px;}
+#postinfotext a { text-decoration:none;}
+#postinfotext a:hover{ }
+
+
+.commentheader {font-family:arial; font-size: 16px; line-height:1.7em; font-weight:bold; text-transform:uppercase; }
+.comment { margin:0 0 10px; padding:2px 5px 0px 8px;}
+
+.commenticon {font-family:arial; font-size: 14px; line-height:1.7em; font-weight:bold; text-transform:uppercase;}
+.commenticon a{ text-decoration:none;}
+.commenticon a:hover{ }
+
+.commenttext { font-size: 13px; line-height:1.7em; }
+.commenttext p{ font-size: 13px; line-height:1.7em; }
+
+.comment p {line-height:1.7em; margin:0px; padding-bottom:2px;}
+.gravatarside {float:right; width:48px; height:48px; margin:0px 5px 5px 5px;}
+.wp-caption { text-align: center; padding-top: 4px; margin: 10px; -moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; clear:both;}
+.wp-caption img { margin: 0; padding: 0; border: 0 none;}
+.wp-caption-dd { font-size: 11px; line-height: 17px; padding: 0 4px 5px; margin: 0;}
+
+
+.navigation {font-family:arial; font-size: 14px; line-height:1.7em; font-weight:bold; text-transform:uppercase;}
+.navigation a { text-decoration:none;}
+.navigation a:hover{ }
+.prevlink{margin: 0px 6px 0px 0px;}
+.nextlink{margin: 0px 0px 0px 6px;}
+
+
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+ 
+.clearfix{display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+.clearfix{display: block;}
+/* End hide from IE-mac */ 
+
+
+ 
+ /*printer styles*/ 
+ @media print{ 
+/*hide the left column when printing*/ 
+#leftcol{display:none;} 
+#twocols, #maincol{width:100%; float:none;}
+}
