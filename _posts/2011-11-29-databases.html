@@ -1,0 +1,62 @@
+---
+layout: post
+title: Databases
+categories:
+- Posts
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1024'
+  _wp_old_slug: ''
+---
+<h2><strong>Database Management Software</strong></h2>
+<p style="padding-left: 30px;"><strong>SQLite</strong></p>
+<a href="http://www.sqlite.org/">SQLite</a> is a simple, lightweight, cross-platform relational database sponsored by, amongst others, <a href="http://www.bloomberg.com/">Bloomberg</a> and <a href="http://www.oracle.com">Oracle</a>.
+<p style="padding-left: 30px;"><strong>Access</strong></p>
+Believe it or not, I learned Access back in 7th grade.  I just remembered that.  Nothing I learned really stuck with me because I didn't understand relational databases at the time.  See below for more on that.  Like most Microsoft products, Access is very powerful and widely misunderstood and underutilized.
+<p style="padding-left: 30px;"><strong>Filemaker Pro</strong></p>
+Filemaker Pro was bought by Apple at some point.  The suite of products includes Bento, a template-centered system for personal information management to Filemaker Pro Server, a multi-user environment.
+<p style="padding-left: 30px;"><strong>Oracle</strong></p>
+Real men (or hapless students) use the command-line based SQL*Plus.  SQL Developer is the graphical interface.  These products are database<em> management systems</em>.  They both manage Oracle's relational database, called Oracle v11.
+<h2>Databases Proper</h2>
+Check out my <a href="http://elliott.web.unc.edu/reading/">Reading list</a> for a sense of my perspectives on databases.  If you find any inaccuracies or imprecisions in the below, <a href="mailto:eah13@email.unc.edu">let me know</a>.
+
+I'm very interested in different types of databases and their implications for information, knowledge, and scholarly practice.  In contrast to the <em>management software</em> discussed above, the below focuses on the underlying structural options for storing and organizing data.
+
+<strong>Relational Databases</strong>
+
+Relational Databases run your life:  they contain your eBay account, your Hospital Records, your Drivers License info, etc, etc, etc.  These things keep track of your membership in things, your account values, store inventories, etc.  They are excellent for 'complete' systems, where the user can define ahead of time what kinds of data will go into the system and, crucially, is <strong>certain</strong> of the content.  Big, subtle problems come along, though, when RDBs are misunderstood or stretched beyond  their capabilities (or, as I'm investigating, when indeterminacy or functional indeterminacy enters the picture).  Much like statistics, this system is only a grammar that relates elements in predefined ways.  I'm working on a formal evaluation of the capabilities/pitfalls of RDBs.
+
+There are many ways to use this one basic format  Access and FileMaker both support the Relational Model (developed by <a href="http://en.wikipedia.org/wiki/Edgar_F._Codd">E.F. Codd</a>), as does database giant <a href="http://www.oracle.com/">Oracle</a>.  <a href="http://en.wikipedia.org/wiki/SQL">SQL</a> is supposed to be a standard interface protocol (it's not really a language) to the relational model.
+
+Relational Databases break related data into tiny bits so that they can be more efficiently coordinated.  How do you know where to make a break?  Well, there's a whole science to database design (and the dreaded <a href="http://en.wikipedia.org/wiki/Normal_forms">Normal Forms</a>), but essentially you identify fault lines within the data for aspects that vary independently of each other.  For instance, 'Author' varies separately from 'Title' in a book (e.g. one Author writes many books, or many people write a text called 'Biology').  But within 'Author', we can specify 'First' and 'Last' names.  We could specifiy 'First letter,' 'Second letter', etc of each name.  But if, in our case, these series of letters always appear together, we know we've gotten granular enough.  Knowing when to stop splitting up your data is the art of database design.  There's also a science that can tell you when splitting your data up (e.g. into individual letters) won't be very efficient.  That doesn't mean it's not desirable, though: I believe that genetics databases split each nucleotide out and use references to the nucleotide in allele descriptions rather than storing 'ACCG' etc.  Ok time to zoom out again.
+
+Many people use databases and they can get very complex.  So far I haven't found many people with the technical skills to manipulate them and even fewer who can give a good conceptual overview.  Hopefully the above is serviceable.  Please do shoot me an email if I've gotten it wrong.
+
+<strong>Data Warehouses ('Atomic Data Stores')</strong>
+
+Large organizations (particularly in Healthcare and Finance) use Data Warehouses to analyze massive amounts of static data.  The entire industry of 'Business Intelligence' is pretty much predicated upon their existence.  They are a type of Relational Database utilizing a special data model called a Star Schema (or, when it's more complex, a Snowflake Schema).  Basically, the schema collapses the standard relational model down into Facts (the 'atom' of atomic) and dimensions.  Roughly, the Facts correspond to 'measurements' you've made and Dimensions are aspects you want to analyze.  It's all a design question, though.
+
+The difference between a data warehouse and a regular relational database is that the latter is operational: it's updated on the fly.  Warehouses are for storage and analysis only.  Their schemata (or, for mere English speakers, 'schemas') are optimized for retrieval and comparison.  If you start trying to update the 'facts' you'll have to go through all of them to make sure you don't introduce any irregularities.
+
+<strong>Document-Oriented Databases</strong>
+
+(via Lew Hassel)
+
+Above we talked about the field 'Author' and how it might be reasonably broken up into 'First' and 'Last' names.  The details of this are part of a database's schema.  Think of a schema as a blueprint, or plumbing pipes, or electrical wiring.  And just like those systems, if you didn't plan ahead for certain functionality, chances are trying to add it will break the model.  So to break the model above, all we have to do is try to add a 'Co-Author'.
+
+Imagine trying to add a sink where there wasn't any plumbing.  That's realizing that what you're trying to do wasn't anticipated in the design.  It's frustrating.
+
+Document-oriented databases try to circumvent all this by being build around 'documents' instead of into a rigid schema.  Think of them like a modular house that you can plug together like legos: you will still get horrible results if you don't plan to have things meet up, but the pieces can be more autonomous and so it's easier to add on as you go.
+
+Document oriented databases allow the functionality we love in Apps like GoogleDocs.
+
+An interesting feature here is that 'documents' are really just a grouping of fields.  There are no specified relationships between documents or fields (i.e. no foreign keys), so the relationship between the fields is latent and dependent upon the capabilities of the field's data format.  For instance if I want to know if a 'document' (say, this blog post) was created by the same author as the rest of the blog posts here, I'll just search all the posts' 'Author' field and see if they match up.  This is a consequence of the document-oriented databases' 'flatness'- their lack of rigid relations.
+
+The document orientation ('persuasion,' if you will..) is great for semi-structured content like blog posts.  It would be horrible at tracking your bank account balances.
+
+<strong>Object Oriented Databases</strong>
+
+I don't understand object oriented databases very well.  More when I do.
