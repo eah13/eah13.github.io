@@ -1,0 +1,13 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+<div id="home">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <h2 class="contentheader">{{ post.title }}</h2>
+      <div class="content">{{ post.content }}</div>
+    {% endfor %}
+  </ul>
+</div>
