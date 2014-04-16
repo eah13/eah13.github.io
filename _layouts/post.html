@@ -5,5 +5,8 @@ layout: default
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
-{{ content }}
+  {{ content }}
+  {% if post.link %}
+    <div class="footer">Read more on {% capture domain %}{{ post.link | remove:'http://' | split:'/' | first }}{% endcapture %} <a href="{{post.link}}">{{ domain }}</a>
+  {% endif %}
 </div>
