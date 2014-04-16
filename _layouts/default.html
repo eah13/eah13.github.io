@@ -30,24 +30,22 @@
               <h1><a href="/">{{ site.title }}</a></h1>
               <h2>{{ site.subtitle }}</h2>
             </div>
-            <!-- <div id="leftcol">
-              leftcol
-            </div> -->
+            <div id="leftcol">
+              <ul>
+                <li><a href="http://github.com/eah13/">github.com/eah13</a></li>
+                <li><a href="http://twitter.com/@hauspoor/">@hauspoor</a></li>
+                <li><a href="http://trinket.io">trinket.io</a></li>
+              {% for section in site.sections %}
+                <li><a href="{{section}}.html">{{ section }}</a></li>
+              {% endfor %}
+              </ul>
+            </div>
             <div id="wrapper" class="clearfix">
               <div id="maincol">
                 {{ content }}
               </div>
             </div>
           </div>
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/eah13/">github.com/eah13</a><br />
-                  <a href="http://twitter.com/@hauspoor/">@hauspoor</a><br />
-                  <a href="http://coursefork.org">Coursefork</a><br />
-                </p>
-              </div>
-            </div>
         </div> <!-- /container -->
 
     </body>
