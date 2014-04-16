@@ -39,14 +39,14 @@ table {
 /* Home
 /*
 /*****************************************************************************/
-ul.posts {
+/*ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
 
 ul.posts li {
   line-height: 1.75em;
-}
+}*/
 
 ul.posts span {
   color: #aaa;
@@ -111,6 +111,7 @@ ul.posts span {
 .site .footer .contact {
   float: left;
   margin-right: 3em;
+  margin-bottom: 2em;
 }
 
 .site .footer .contact a {

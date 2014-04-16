@@ -1,0 +1,75 @@
+---
+layout: post
+title: Clojure
+categories:
+- Posts
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1024'
+---
+I'm learning Clojure.  I'd like it to be my primary language.
+
+I spent tons of time evaluating languages, and have compiled my notes into a stub of a curriculum I'd like to teach at UNC one semester.  For now though, I thought it might be helpful to throw up a few links that I've found particularly helpful.
+
+&nbsp;
+<h3>What is Clojure?</h3>
+To varying degrees of resolution:
+
+* a programing language
+* a <a href="http://en.wikipedia.org/wiki/Lisp_(programming_language)">LISP</a> dialect
+* Clojure is a dynamic programming language that targets the Java Virtual Machine (<a href="http://github.com/richhickey/clojure-clr" rel="nofollow">and the CLR</a>, and <a href="http://github.com/clojure/clojurescript" rel="nofollow" target="_blank">JavaScript</a>). It is designed to be a general-purpose language, combining the approachability and interactive development of a scripting language with an efficient and robust infrastructure for multithreaded programming. Clojure is a compiled language - it compiles directly to JVM bytecode, yet remains completely dynamic. Every feature supported by Clojure is supported at runtime. Clojure provides easy access to the Java frameworks, with optional type hints and type inference, to ensure that calls to Java can avoid reflection.  (from <a href="http://clojure.org/">Clojure.org</a>)
+
+<div>The features of Clojure that caught my attention</div>
+<div>
+<ul>
+	<li>Edit code at runtime</li>
+	<li>Prototype blazing fast</li>
+	<li>Macros: programs that can make other programs at run- or compiletime</li>
+	<li>LISPy languages make sense to my brain</li>
+	<li><a href="http://himera.herokuapp.com/index.html">ClojureScript</a></li>
+	<li>Companies I admire like <a href="http://www.factual.com/">Factual</a> <a href="http://blog.factual.com/clojure-on-hadoop-a-new-hope">like it</a> and <a href="https://github.com/Factual/factual-clojure-driver/">are supportive</a></li>
+	<li>Big companies don't use it, but many startups do (each of these is a plus)</li>
+	<li>Runs in JVM</li>
+</ul>
+<div>What has been built with Clojure?  Glad you asked</div>
+<div>
+<ul>
+	<li><a href="http://dev.clojure.org/display/community/Clojure+Success+Stories">Clojure success stories</a></li>
+	<li>Quora: <a href="http://www.quora.com/Clojure/Which-startups-are-using-Clojure">Startups</a> and <a href="http://www.quora.com/Whos-using-Clojure-in-production">Others</a> using Clojure</li>
+</ul>
+</div>
+</div>
+&nbsp;
+<h3>Trying out Clojure with no install</h3>
+Trying out Clojure is super easy, thanks to the geniuses who wrote <a href="http://www.4clojure.com/">4Clojure.com</a>.
+<ul>
+	<li>Open a <a href="http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop">REPL</a> in one tab (<a href="http://tryclj.com/">tryclj.com</a> is a good one)</li>
+	<li>Open one of the <a href="http://www.4clojure.com/problems">Clojure Problems</a> in another tab</li>
+	<li>4Clojure problems are fill-in-the-blank code.  The REPL will help you test pieces of code.</li>
+	<li>Submit - If you got a green light, congrats!  Move on!  If not, repeat from the top</li>
+	<li>(Optional) Create an account to track your progress and play Code Golf</li>
+</ul>
+<div>Note there is no compiling needed here.  You are running a real Clojure REPL in the browser.</div>
+<div></div>
+<h3>Installing &amp; Learning More</h3>
+The Clojure koans are great for learning.  I actually started them before 4Clojure, but I list them after because they require an install.
+<ul>
+	<li><a href="https://github.com/functional-koans/clojure-koans">Get started</a></li>
+	<li>My setup, shown below, is two terminals, one with VimClojure editing a koan file, the other running the koan script.  Edit and save (:w) in vim and the koan script will automatically move on to the next blank (or koan that you got wrong).  It still seems magical to me that I'm editing code while a program is running.</li>
+</ul>
+<p style="text-align: center;"><a href="http://elliott.web.unc.edu/files/2012/06/Screen-Shot-2012-06-25-at-5.22.08-PM.jpg"><img class="aligncenter  wp-image-535" title="Screen Shot 2012-06-25 at 5.22.08 PM" src="http://elliott.web.unc.edu/files/2012/06/Screen-Shot-2012-06-25-at-5.22.08-PM-1024x512.jpg" alt="" width="819" height="410" /></a>Note: Getting the cool highlighting and rainbow parens are described below at the VimClojure link.</p>
+
+<h3>Vids</h3>
+There are <a href="http://blip.tv/clojure">all sorts of great blip.tv videos</a> on Clojure related topics.  (I recommend <a href="http://blip.tv/clojure/hammock-driven-development-4475586">this one</a> featuring Rich Hickey, the originator of Clojure.  He's not talking about Clojure per se, but design/programming techniques 'from the hammock', using your 'background mind'.  Watch the video to see what he means).
+
+&nbsp;
+<h3>Getting Serious with Clojure</h3>
+I'm just barely serious with clojure, so this is a stub.
+<ul>
+	<li><a href="http://www.vim.org/scripts/script.php?script_id=2501">VimClojure</a> - I started out using pico, which served me well, but now mostly use vim for terminal editing.  Set up rainbow parens in <a href="https://github.com/jpalardy/vim-slime">vimslime</a> as described <a href="http://writequit.org/blog/?p=386">here</a>.</li>
+	<li>Clojure <a href="http://eclipse.org">Eclipse</a> Plugin - Everyone's favorite IDE (ok, a lot of people's favorite) has a Clojure plugin, called CounterClockwise.  Instructions for a nice setup are <a href="http://dev.clojure.org/display/doc/Getting+Started+with+Eclipse+and+Counterclockwise">here</a>.</li>
+	<li>Emacs - Emacs is too smart for me.</li>
+</ul>
