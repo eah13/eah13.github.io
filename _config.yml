@@ -3,3 +3,6 @@ pygments: true
 
 title: Elliott Hauser
 subtitle: since 1983
+
+sections:
+  - bio
