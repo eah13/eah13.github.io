@@ -8,7 +8,8 @@ I'm migrating [my blog/site](http://elliotthauser.com) from Wordpress to Jekyll.
 Roadmap
 * [ Done ] Import posts
 * [ Done ] Emulate `visibility` and `hidden` behavior of current wordpress theme and general style/look/feel
-* [ Working on ] Fix styling bugs
-* [ Not Started ] Frankenstein surgery (i.e. clean up my hacks)
+* [ Done ] Fix styling bugs
+* [ Done ] Frankenstein surgery (i.e. clean up my hacks)
 * [ Not Started ] Implement some new ideas
+* [ Not Started ] Pagination & Pretty display
 * [ Not Started ] Deploy
