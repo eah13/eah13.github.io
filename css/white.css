@@ -1,9 +1,9 @@
 html, body{ background-color:#FFFFFF;} 
 
-#header h1{ color:#CCCCCC;} 
-#header h1 a{color:#CCCCCC; }
+#header h1{ color:#808080;} 
+#header h1 a{color:#808080; }
 #header h1 a:hover{color:#333333; }
-#header h2{ color:#999999; } 
+#header h2{ color:#CCCCCC; } 
  
 #menu {color:#CCCCCC; }
 #menu a {color:#CCCCCC; }
@@ -38,12 +38,12 @@ h2.menuheader:active{color:#333333;}
 #maincol ul{ color:#333333; }
 #maincol ol{ color:#333333; }
 
-h2.contentheader{ color:#CCCCCC; } 
+h2.contentheader{ color:#999999; } 
 h2.contentheader:hover{color:#333333;}
 h2.contentheader:active{color:#333333;}
 
-.permalink{ color:#CCCCCC; } 
-.permalink a{color:#CCCCCC; } 
+.permalink{ color:#999999; } 
+.permalink a{color:#999999; } 
 .permalink a:hover{color:#333333; } 
 
 #wp-calendar{ color:#000000;}

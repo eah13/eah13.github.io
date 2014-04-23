@@ -9,9 +9,9 @@ Tags: two-columns, white, black, blue, green, silver, fixed-width, left-sidebar
 */
 html, body{ padding:20px 0px 20px 0px; margin:0; text-align:center; font-family:verdana; font-size: 13px;} 
  
-#page{ width:900px; text-align:left; margin-left:auto; margin-right:auto;} 
+#page{ width:1100px; text-align:left; margin-left:auto; margin-right:auto;} 
 
-#header{ position:relative; width:900px; margin: 0px; padding: 0px; height:50px; overflow-x:hidden;} 
+#header{ position:relative; width:1100px; margin: 0px; padding: 0px; height:50px; overflow-x:hidden;} 
 #header h1{ position:relative; float:left; margin:0px 0px 0px 250px; width: 650px; padding:0px; font-family:arial; font-weight:bold; font-size:20px; text-transform:uppercase;} 
 #header h1 a{ text-decoration:none;}
 #header h1 a:hover{ text-decoration:none;}
@@ -50,9 +50,9 @@ ul#recentcomments li a:hover{ text-decoration:none; }
 #recentcomments a{ text-decoration:none; font-weight:bold; font-family:arial; text-transform:uppercase; font-size:14px;}
 #recentcomments a:hover{ text-decoration:none; font-weight:bold; font-family:arial; text-transform:uppercase; font-size:14px; }
 
-#maincol{ float: right; display:inline; position: relative; width:650px; font-family:verdana; font-size: 13px;overflow-x:hidden; overflow-y:hidden; text-align:left;}
+#maincol{ float: right; display:inline; position: relative; width:850px; font-family:verdana; font-size: 13px;overflow-x:hidden; overflow-y:hidden; text-align:left;}
 #maincol h1 {margin:0px 0px 0px 0px; padding:0px; font-family:arial; font-weight:bold; font-size:22px; text-transform:uppercase; clear:both;} 
-#maincol h2 { margin:0px 0px 0px 0px; padding:0px; font-family:arial; font-weight:bold; font-size:20px;text-transform:uppercase; clear:both;} 
+#maincol h2 { margin:0px 0px 0px 0px; padding:0px; font-family:arial; font-weight:bold; font-size:20px;text-transform:capitalize; clear:both;} 
 #maincol h2 a{ text-decoration:none;} 
 
 #maincol h3 { margin:0px 0px 0px 0px; padding:0px; font-family:arial; font-weight:bold; font-size:18px; text-transform:uppercase; clear:both;} 
