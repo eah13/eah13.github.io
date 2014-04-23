@@ -13,3 +13,8 @@ Roadmap
 * [ Not Started ] Implement some new ideas
 * [ Not Started ] Pagination & Pretty display
 * [ Not Started ] Deploy
+
+
+The content on this site is (C) Elliott Hauser 2011-2014 and is provided with a [Creative Commons Attribution International 4.0](http://creativecommons.org/licenses/by/4.0/) license.  You're free to use it however you like as long as you attribute it to me and provide a link to this site.
+
+The code is (C) Elliott Hauser and provided under an MIT License (see LICENSE.md).
