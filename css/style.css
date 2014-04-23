@@ -50,7 +50,7 @@ ul#recentcomments li a:hover{ text-decoration:none; }
 #recentcomments a{ text-decoration:none; font-weight:bold; font-family:arial; text-transform:uppercase; font-size:14px;}
 #recentcomments a:hover{ text-decoration:none; font-weight:bold; font-family:arial; text-transform:uppercase; font-size:14px; }
 
-#maincol{ float: right; display:inline; position: relative; width:650px; font-family:verdana; font-size: 13px;overflow-x:hidden; text-align:left;}
+#maincol{ float: right; display:inline; position: relative; width:650px; font-family:verdana; font-size: 13px;overflow-x:hidden; overflow-y:hidden; text-align:left;}
 #maincol h1 {margin:0px 0px 0px 0px; padding:0px; font-family:arial; font-weight:bold; font-size:22px; text-transform:uppercase; clear:both;} 
 #maincol h2 { margin:0px 0px 0px 0px; padding:0px; font-family:arial; font-weight:bold; font-size:20px;text-transform:uppercase; clear:both;} 
 #maincol h2 a{ text-decoration:none;} 

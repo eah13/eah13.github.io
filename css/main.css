@@ -54,6 +54,9 @@ ul.posts span {
   font-size: 80%;
 }
 
+.date {
+  color: #999999
+}
 /*****************************************************************************/
 /*
 /* Site
@@ -141,8 +144,12 @@ ul.posts span {
   padding: 0 .4em;
 }
 
-.post ul, .post ol {
+.post ul, .post ol, .post li {
   margin-left: 1.35em;
+}
+
+.post li {
+  list-style-type: disc;
 }
 
 .post code {
