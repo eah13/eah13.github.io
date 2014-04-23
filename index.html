@@ -6,7 +6,8 @@ layout: default
   <ul class="posts">
     <h2 class="contentheader">Welcome</h2>
       <div class="content post">
-            {% include welcome %}
+        {% capture welcometext %}{% include welcome.md %}{% endcapture %}
+        {{ welcometext | markdownify }}
       </div>
     {% for post in site.posts %}
     <h2 class="contentheader">{{ post.title }}</h2>
