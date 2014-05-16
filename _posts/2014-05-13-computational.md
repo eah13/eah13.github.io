@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Computational Thinking: How Pat Counts Teaches Physics with Python"
+title: "How Pat Counts Teaches Physics with Python"
 link: http://blog.trinket.io/computational-thinking/
 ---
 
