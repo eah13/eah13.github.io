@@ -14,7 +14,7 @@ Characters in a string can be accessed using the standard `[ ]` syntax, and like
 
 Unlike Java, the '+' does not automatically convert numbers or other types to string form. The str() function converts values to a string form so they can be combined with other strings.
 
-<iframe src="https://dev.trinket.io/embed/console/53987de298597f5d6f415efb" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen/>
+<iframe src="https://dev.trinket.io/embed/console/53987de298597f5d6f415efb" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen/>
 
 For numbers, the standard operators, `+`, `/`, `*` work in the usual way. There is no `++` operator,  but `+=`, `-=`, etc. work. If you want integer division, it is most correct to use 2 slashes -- e.g. `6 // 5` is `1` (previous to python 3000, a single `/` does int division with ints anyway, but moving forward `//` is the preferred way to indicate that you want int division.)
 
