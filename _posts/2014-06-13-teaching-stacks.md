@@ -1,6 +1,6 @@
 ---
 layout: post
-link: http://programming.oreilly.com/2014/06/open-teaching-stacks-help-us-teach-at-scale.html
+link: http://radar.oreilly.com/2014/06/open-teaching-stacks-help-us-teach-at-scale.html
 title: Open Teaching Stacks help us teach at scale
 ---
 
