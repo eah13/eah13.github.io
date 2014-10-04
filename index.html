@@ -1,23 +1,29 @@
 ---
 layout: default
 ---
-
-<div id="home">
-  <ul class="posts">
-    <h2 class="contentheader">Welcome</h2>
-      <div class="content post">
+<div class="row">
+  <div class="small-12 columns small-centered" id="home">
+  <dl class="accordion" data-accordion>
+    <dd class="accordion-navigation">
+    <a href="#welcome"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i>Welcome</a>
+      <div id="welcome" class="content">
         {% capture welcometext %}{% include welcome.md %}{% endcapture %}
         {{ welcometext | markdownify }}
       </div>
+
     {% for post in site.posts %}
-    <h2 class="contentheader">{{ post.title }}</h2>
-    <div class="date"><em>&nbsp;{% if post.link %}on {% capture domain %}{{ post.link | replace: 'https://', 'http://' | remove:'http://' | split:'/' | first }}{% endcapture %} <a href="{{post.link}}">{{ domain }}</a>: {% endif %}{{ post.date | date: "  %B %e, %Y" }}</em><div>
-      <div class="content post">
+    </dd>
+    <dd class="accordion-navigation">
+      <a href="#panel{{ forloop.index }}"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i>{{ post.title }}</a>       
+      <div  id="panel{{ forloop.index }}" class="content">
+        <div class="text-right"><em>{% if post.link %}First published on {% capture domain %}<a href="{{post.link}}">{{ post.link | replace: 'https://', 'http://' | remove:'http://' | split:'/' | first }}{% endcapture %} {{ domain }}</a>, {% endif %}{{ post.date | date: "  %B %e, %Y" }}</em></div>
         {{ post.content }}
         {% if post.link %}
         <div>Read more on {% capture domain %}{{ post.link | replace: 'https://', 'http://' | remove:'http://' | split:'/' | first }}{% endcapture %} <a href="{{post.link}}">{{ domain }}</a></div>
         {% endif %}
       </div>
+     </dd>
     {% endfor %}
-  </ul>
+</dl>
+</div>
 </div>

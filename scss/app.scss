@@ -1,0 +1,79 @@
+@import "settings";
+@import "foundation";
+
+@media only screen and (max-width: 520px) {
+
+   .accordion .accordion-navigation > a, .accordion dd > a { font-size: 1.4em; }
+
+}
+.accordion i {
+  margin-right: .5em;
+}
+
+.accordion i.fa-angle-right{
+  display:inline;
+}
+.accordion i.fa-angle-down{
+  display:none;
+}
+.accordion .active i.fa-angle-right{
+  display:none;
+}
+.accordion .active i.fa-angle-down{
+  display:inline;
+}
+
+span.vcent {
+  vertical-align: middle;
+}
+
+li a i {
+  margin-right: 1em;
+}
+
+.bio .row .row {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  .columns {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
