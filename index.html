@@ -11,11 +11,11 @@ layout: default
       </div>
     {% for post in site.posts %}
     <h2 class="contentheader">{{ post.title }}</h2>
-    <div class="date"><em>&nbsp;{% if post.link %}on {% capture domain %}{{ post.link | remove:'http://' | split:'/' | first }}{% endcapture %} <a href="{{post.link}}">{{ domain }}</a>: {% endif %}{{ post.date | date: "  %B %e, %Y" }}</em><div>
+    <div class="date"><em>&nbsp;{% if post.link %}on {% capture domain %}{{ post.link | replace: 'https://', 'http://' | remove:'http://' | split:'/' | first }}{% endcapture %} <a href="{{post.link}}">{{ domain }}</a>: {% endif %}{{ post.date | date: "  %B %e, %Y" }}</em><div>
       <div class="content post">
         {{ post.content }}
         {% if post.link %}
-        <div>Read more on {% capture domain %}{{ post.link | remove:'http://' | split:'/' | first }}{% endcapture %} <a href="{{post.link}}">{{ domain }}</a></div>
+        <div>Read more on {% capture domain %}{{ post.link | replace: 'https://', 'http://' | remove:'http://' | split:'/' | first }}{% endcapture %} <a href="{{post.link}}">{{ domain }}</a></div>
         {% endif %}
       </div>
     {% endfor %}
