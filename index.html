@@ -15,7 +15,7 @@ layout: default
       <div class="content post">
         {{ post.content }}
         {% if post.link %}
-        <div>Read more on {% capture domain %}{{ post.link | remove:'http://' | split:'/' | first }}{% endcapture %} <a href="{{post.link}}">{{ domain }}</a></div>
+        <div>Read more on {% capture domain %}{{ post.link | replace: 'https://', 'http://' | remove:'http://' | split:'/' | first }}{% endcapture %} <a href="{{post.link}}">{{ domain }}</a></div>
         {% endif %}
       </div>
     {% endfor %}
