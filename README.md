@@ -17,6 +17,7 @@ Roadmap
 * [ Not Started ] Photography gallery
 * [ Not Started ] Live / reactive portion for fun
 * [ Not Started ] Email updates (sumo?)
+* [ Not Advisable ] Port to Pelican?
 
 The written and visual content on this site is (C) Elliott Hauser 2011-2014 and is provided with a [Creative Commons Attribution International 4.0](http://creativecommons.org/licenses/by/4.0/) license.  You're free to use it however you like as long as you attribute it to me and provide a link to this site.
 
