@@ -5,8 +5,8 @@ layout: default
   <div class="small-12 columns small-centered" id="home">
   <dl class="accordion" data-accordion>
     <dd class="accordion-navigation">
-    <a href="#welcome"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i>Welcome</a>
-      <div id="welcome" class="content">
+    <a id="welcomeheader" href="#welcome"><i class="fa fa-info-circle"></i>Welcome</a>
+      <div id="welcome" class="content active">
         {% capture welcometext %}{% include welcome.md %}{% endcapture %}
         {{ welcometext | markdownify }}
       </div>
