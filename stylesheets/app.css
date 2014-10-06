@@ -9091,3 +9091,8 @@ li a i {
   margin-left: .3em;
   margin-right: .3em;
 }
+
+/* line 59, ../scss/app.scss */
+div.post-date {
+  margin-bottom: .4em;
+}

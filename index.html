@@ -16,7 +16,7 @@ layout: default
     <dd class="accordion-navigation">
       <a href="#panel{{ forloop.index }}" onclick="ga('send', 'event', 'Reading', 'Expand Post', '{{ post.title | slugify }}')"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i>{{ post.title }}</a>       
       <div  id="panel{{ forloop.index }}" class="content">
-        <div class="text-right"><em>{% if post.link %}First published on {% capture domain %}<a href="{{post.link}}" onclick="ga('send', 'event', 'Reading', 'Follow Link', '{{ post.title | slugify }}')">{{ post.link | replace: 'https://', 'http://' | remove:'http://' | split:'/' | first }}{% endcapture %} {{ domain }}</a>, {% endif %}{{ post.date | date: "  %B %e, %Y" }}</em></div>
+        <div class="text-right post-date"><em>First published on {{ post.date | date: "  %B %e, %Y" }}</em></div>
         {{ post.content }}
         {% if post.link %}
         <div>Read more on {% capture domain %}{{ post.link | replace: 'https://', 'http://' | remove:'http://' | split:'/' | first }}{% endcapture %} <a href="{{post.link}}" onclick="ga('send', 'event', 'Reading', 'Follow Link', '{{ post.title | slugify }}')">{{ domain }}</a></div>
