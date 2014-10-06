@@ -1,6 +1,6 @@
 ---
 layout: post
-link: http://exitevent.com/how-to-pitch-your-pre-seed-startup-13513.asp
+link: http://www.exitevent.com/how-to-pitch-your-pre-seed-startup-13513.asp
 ---
 
 Fun aside: this was published on the day we officially registered the business with the Delaware Secretary of State.  We got our first term sheet a few days later.
