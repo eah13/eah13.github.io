@@ -35,7 +35,7 @@ I've studied Art History at Duke, Information Science at UNC, and taught introdu
 </div>
 <div class="row">  
 <div class="small-12 medium-5 columns left text-center">
-<span class="vcent"><i class="fa fa-camera-retro fa-5x"></i>&nbsp;<i class="fa fa-plus fa-5x"></i>&nbsp;<i class="fa fa-book fa-5x"></i></span>
+<span class="bio-icons"><i class="fa fa-camera-retro fa-5x"></i>&nbsp;<i class="fa fa-plus fa-5x"></i>&nbsp;<i class="fa fa-book fa-5x"></i></span>
 </div>
 <div class="small-12 medium-7 columns left">
 I like philosophy and photography.  That means photographs of philiosophers and the philosophy of photography are pretty much the best things I can think of.
@@ -43,7 +43,7 @@ I like philosophy and photography.  That means photographs of philiosophers and 
 </div>
 <div class="row">
 <div class="small-12 medium-5 columns right text-center">
-<span class="vcent"><i class="fa fa-twitter fa-5x"></i>&nbsp;<i class="fa fa-plus fa-5x"></i>&nbsp;<i class="fa fa-comments-o fa-5x"></i></span>
+<span class="bio-icons"><i class="fa fa-twitter fa-5x"></i>&nbsp;<i class="fa fa-plus fa-5x"></i>&nbsp;<i class="fa fa-comments-o fa-5x"></i></span>
 </div>
 <div class="small-12 medium-7 columns left">
 <a href="http://twitter.com/hauspoor">Tweeting at me</a> is the best way to get in touch if we haven't met.  I look forward to hearing from you!

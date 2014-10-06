@@ -9073,3 +9073,21 @@ li a i {
   display: inline-block;
   vertical-align: middle;
 }
+
+/* line 43, ../scss/app.scss */
+.bio-icons {
+  vertical-align: middle;
+  color: #fafafa;
+  text-shadow: 0 0 2px #fff,0 0 5px #fff,0 0 7px #fff,0 0 10px #000;
+}
+/* line 48, ../scss/app.scss */
+.bio-icons i {
+  font-size: 5em;
+  margin-bottom: .4em;
+}
+/* line 52, ../scss/app.scss */
+.bio-icons i.fa-plus {
+  font-size: 4em;
+  margin-left: .3em;
+  margin-right: .3em;
+}
