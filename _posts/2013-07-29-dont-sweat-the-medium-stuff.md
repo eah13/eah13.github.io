@@ -1,6 +1,6 @@
 ---
 layout: post
-link: http://exitevent.com/startup-founders-dont-sweat-the-medium-stuff-13729.asp
+link: http://www.exitevent.com/startup-founders-dont-sweat-the-medium-stuff-13729.asp
 title: "Don't Sweat the Medium Stuff"
 ---
 
