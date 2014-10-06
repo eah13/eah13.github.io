@@ -1,6 +1,6 @@
 ---
 layout: post
-link: http://exitevent.com/lets-be-catalysts-for-coding-education-14731.asp
+link: http://www.exitevent.com/lets-be-catalysts-for-coding-education-14731.asp
 title: "Let's be Catalysts for Coding Education"
 ---
 
