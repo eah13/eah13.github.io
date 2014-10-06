@@ -38,7 +38,7 @@ I've studied Art History at Duke, Information Science at UNC, and taught introdu
 <span class="bio-icons"><i class="fa fa-camera-retro fa-5x"></i>&nbsp;<i class="fa fa-plus fa-5x"></i>&nbsp;<i class="fa fa-book fa-5x"></i></span>
 </div>
 <div class="small-12 medium-7 columns left">
-I like philosophy and photography.  That means photographs of philiosophers and the philosophy of photography are pretty much the best things I can think of.
+I like philosophy and photography.  That means <a href="img/wittgenstein.jpg">photographs of philiosophers</a> and the <a href="http://en.wikipedia.org/wiki/On_Photography">philosophy of photography</a> are pretty much the best things I can think of.
 </div>
 </div>
 <div class="row">
