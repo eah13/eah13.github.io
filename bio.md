@@ -10,7 +10,7 @@ layout: default
 </div>
 </div>
 <div class="row">
-<div class="small-10 columns small-centered">
+<div class="small-9 columns small-centered">
 <div class="row">  
 
 <div class="small-12 medium-5 columns left">
@@ -19,7 +19,7 @@ layout: default
 </a>
 </div>
 <div class="small-12 medium-7 columns right">
-I'm building the easiest way to teach using open materials at <a href="http://trinket.io">trinket.io</a>.  
+I'm building the easiest way to Teach With Code at <a href="http://trinket.io">trinket.io</a>.  
 </div>
 </div>
 <div class="row">  
@@ -35,15 +35,15 @@ I've studied Art History at Duke, Information Science at UNC, and taught introdu
 </div>
 <div class="row">  
 <div class="small-12 medium-5 columns left text-center">
-<span class="bio-icons"><i class="fa fa-camera-retro fa-5x"></i>&nbsp;<i class="fa fa-plus fa-5x"></i>&nbsp;<i class="fa fa-book fa-5x"></i></span>
+<span class="vcent"><i class="fa fa-camera-retro fa-5x"></i>&nbsp;<i class="fa fa-plus fa-5x"></i>&nbsp;<i class="fa fa-book fa-5x"></i></span>
 </div>
 <div class="small-12 medium-7 columns left">
-I like philosophy and photography.  That means <a href="img/wittgenstein.jpg">photographs of philiosophers</a> and the <a href="http://en.wikipedia.org/wiki/On_Photography">philosophy of photography</a> are pretty much the best things I can think of.
+I like philosophy and photography.  That means photographs of philiosophers and the philosophy of photography are pretty much the best things I can think of.
 </div>
 </div>
 <div class="row">
 <div class="small-12 medium-5 columns right text-center">
-<span class="bio-icons"><i class="fa fa-twitter fa-5x"></i>&nbsp;<i class="fa fa-plus fa-5x"></i>&nbsp;<i class="fa fa-comments-o fa-5x"></i></span>
+<span class="vcent"><i class="fa fa-twitter fa-5x"></i>&nbsp;<i class="fa fa-plus fa-5x"></i>&nbsp;<i class="fa fa-comments-o fa-5x"></i></span>
 </div>
 <div class="small-12 medium-7 columns left">
 <a href="http://twitter.com/hauspoor">Tweeting at me</a> is the best way to get in touch if we haven't met.  I look forward to hearing from you!
