@@ -40,24 +40,13 @@ li a i {
   }
 }
 
-.bio-icons {
-  vertical-align: middle;
-  color: $ghost;
-
-  text-shadow: 0 0 2px #fff,0 0 5px #fff,0 0 7px #fff,0 0 10px #000;
-  i {
-    font-size: 5em;
-    margin-bottom: .4em;
+.speaking div {
+  p, ul {
+  padding: 0 1.5em 0 1.5em;
   }
-  i.fa-plus {
-    font-size: 4em;
-    margin-left: .3em;
-    margin-right: .3em;
+  hr {
+    margin-top: 8px;
   }
-}
-
-div.post-date {
-  margin-bottom: .4em;
 }
 // Or selectively include components
 // @import

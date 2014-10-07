@@ -9074,25 +9074,11 @@ li a i {
   vertical-align: middle;
 }
 
-/* line 43, ../scss/app.scss */
-.bio-icons {
-  vertical-align: middle;
-  color: #fafafa;
-  text-shadow: 0 0 2px #fff,0 0 5px #fff,0 0 7px #fff,0 0 10px #000;
+/* line 44, ../scss/app.scss */
+.speaking div p, .speaking div ul {
+  padding: 0 1.5em 0 1.5em;
 }
-/* line 48, ../scss/app.scss */
-.bio-icons i {
-  font-size: 5em;
-  margin-bottom: .4em;
-}
-/* line 52, ../scss/app.scss */
-.bio-icons i.fa-plus {
-  font-size: 4em;
-  margin-left: .3em;
-  margin-right: .3em;
-}
-
-/* line 59, ../scss/app.scss */
-div.post-date {
-  margin-bottom: .4em;
+/* line 47, ../scss/app.scss */
+.speaking div hr {
+  margin-top: 8px;
 }
