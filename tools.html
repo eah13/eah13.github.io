@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<div class="row">
+  <div class="small-12 columns small-centered" id="home">
+  <dl class="accordion" data-accordion>
+    <dd class="accordion-navigation">
+    <a id="welcomeheader" href="#welcome"><i class="fa fa-info-circle"></i>Recommended Foundertools</a>
+      <div id="welcome" class="content active">
+        {% capture tooltext %}{% include tool.md %}{% endcapture %}
+        {{ tooltext | markdownify }}
+      </div>
+
+    </dd>
+{% for post in site.posts %}
+    {% assign print = "false" %}
+    {% for layout in site.special-layouts %}
+      {% if post.layout contains layout %}
+        {% assign print = "true" %}
+      {% endif %}
+    {% endfor %}
+  {% if print == "true" %}
+    <dd class="accordion-navigation">
+      <a href="#panel{{ forloop.index }}" onclick="ga('send', 'event', 'Reading', 'Expand Tool', '{{ post.title | slugify }}')"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i>{{ post.title }}</a>       
+      <div  id="panel{{ forloop.index }}" class="content">
+        {{ post.content }}
+ <p> Check it out {% if post.html %}here: {{ post.html }}{% elsif post.link %}<a href="{{ post.link }}">here.</a>{% endif %}</p>
+      </div>
+     </dd>
+  {% endif %}
+{% endfor %}
+</dl>
+</div>
+</div>
