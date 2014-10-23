@@ -1,4 +1,4 @@
-Welcome!  This site is a bunch of lists.  Here's a list of the lists:
+Welcome!  This site is a bunch of lists.
 
 * Below is a list of my recent writings, on this blog and elsewhere.  I'll also throw in press every now and then. I hope you enjoy it.
 * Here's a list of some [stuff I do](bio.html).  
