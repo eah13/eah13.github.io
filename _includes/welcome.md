@@ -1,6 +1,6 @@
 Welcome!  This is a list of my recent writings, both on this blog and elsewhere.  I'll also throw in press every now and then. I hope you enjoy them.
 
-Here's a list of some [stuff I do](bio.html).
+Here's a list of some [stuff I do](bio.html).  Here's a list of [tools I use as a startup founder](tools.html).  And if you need a speaker at your next education or technology event [I do that too](speaking.html).
 
 Connect with me on [LinkedIn](http://linkedin.com/in/elliotthauser), [Twitter](http://twitter.com/hauspoor), or [G+](http://plus.google.com/+elliotthauser).  
 
