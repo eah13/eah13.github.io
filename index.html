@@ -11,8 +11,15 @@ layout: default
         {{ welcometext | markdownify }}
       </div>
 
-    {% for post in site.posts %}
     </dd>
+{% for post in site.posts %}
+    {% assign print = "true" %}
+    {% for layout in site.special-layouts %}
+      {% if post.layout contains layout %}
+        {% assign print = false %}
+      {% endif %}
+    {% endfor %}
+  {% if print == "true" %}
     <dd class="accordion-navigation">
       <a href="#panel{{ forloop.index }}" onclick="ga('send', 'event', 'Reading', 'Expand Post', '{{ post.title | slugify }}')"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i>{{ post.title }}</a>       
       <div  id="panel{{ forloop.index }}" class="content">
@@ -23,7 +30,8 @@ layout: default
         {% endif %}
       </div>
      </dd>
-    {% endfor %}
+  {% endif %}
+{% endfor %}
 </dl>
 </div>
 </div>
