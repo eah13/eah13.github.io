@@ -7,7 +7,8 @@ subtitle: doing stuff since 1983
 sections:
   - bio
 
-
+special-layouts:
+  - "tools"
 
 timezone: America/New_York
 
