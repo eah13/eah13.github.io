@@ -1,6 +1,6 @@
 ---
 link: https://medium.com/@hauspoor/a-week-in-silicon-valley-for-750-or-less-a15ef26cdc55
-title: Travelhacks for startup founders
+title: Travelhacks for Startup Founders
 layout: post
 ---
 
