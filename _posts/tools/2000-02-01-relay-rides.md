@@ -1,8 +1,11 @@
 ---
 layout: tools
-title: Relay Rides
+title: Turo (formerly Relay Rides)
 link: https://relayrides.com/?code=303762rNaLVb
 ---
+
+**Edit: From my perspective, the rebranding to Turo was a massive waste of time, money, and brand equity when
+the company should have been spending all it had on each on growth.  Huge mistake.**
 
 For around $20 a day you can pick up a car at the airport and drop it back off there when your trip is done.  If you're doing this instead of Uber, you may actually save money and have a car for the whole trip.  If you have a group of people, it may even be less expensive than everyone getting public transit. It is easy, cheap, and consistent.  I always rent the cheapest possible car, and sometimes they give me a Volvo or a Lexus if they're out of Chevy Aveos or whatever.
 
