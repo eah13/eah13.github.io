@@ -2,4 +2,7 @@ This is a list of tools I've found helpful as a founder of [Trinket](http://trin
 
 It's never the stuff that makes you great.  But great stuff can make the journey easier.
 
+There's also a tool graveyard of tools I no longer use, no longer exist, or I no longer recommend.  I've added an 
+edit to each explaining what's up.
+
 Thanks again and as always feel free to [email me](elliott+reveiws@trinket.io) if you have suggestions of how I could make this section better.
