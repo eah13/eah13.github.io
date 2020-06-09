@@ -1,5 +1,5 @@
 ---
-title: "When Success Doesn't Feel Successful"
+title: "Success Doesn't Always Feel Successful"
 link: https://medium.com/@hauspoor/success-doesn-t-feel-successful-472412d1899f#.d91owkeu7
 layout: post
 ---
