@@ -19,9 +19,14 @@ layout: default
         {% assign print = false %}
       {% endif %}
     {% endfor %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% if this_year == "2012" or this_year == "2011" %}
+      {% assign print = false %}
+    {% endif %}
+    {% if post.published == false %}{% assign print = false %}{% endif %}
   {% if print == "true" %}
     <dd class="accordion-navigation">
-      <a href="#panel{{ forloop.index }}" onclick="ga('send', 'event', 'Reading', 'Expand Post', '{{ post.title | slugify }}')"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i>{{ post.title }}</a>       
+      <a href="#panel{{ forloop.index }}" onclick="ga('send', 'event', 'Reading', 'Expand Post', '{{ post.title | slugify }}')"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i>{{ post.title }}</a>
       <div  id="panel{{ forloop.index }}" class="content">
         <div class="text-right post-date"><em>First published on {{ post.date | date: "  %B %e, %Y" }}</em></div>
         {{ post.content }}

@@ -1,6 +1,6 @@
 ---
 layout: post
-link: http://exitevent.com/startups-giving-back-living-life-deliberately-13117.asp
+link: https://www.wraltechwire.com/2013/11/06/startups-giving-back-living-life-deliberately-13117/
 ---
 
 A conversation with ExitEvent founder Joe Procopio.

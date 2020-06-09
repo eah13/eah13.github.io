@@ -1,6 +1,6 @@
 ---
 layout: post
-link: http://www.exitevent.com/startup-founders-dont-sweat-the-medium-stuff-13729.asp
+link: https://www.wraltechwire.com/2013/07/28/startup-founders-dont-sweat-the-medium-stuff-13729/
 title: "Don't Sweat the Medium Stuff"
 ---
 
