@@ -5,6 +5,6 @@ Welcome!  This site is a bunch of lists.
 * Here's a list of [tools I use as a startup founder](tools.html).  
 * And if you need a speaker at your next education or technology event [I do that too](speaking.html).
 
-Connect with me on [LinkedIn](http://linkedin.com/in/elliotthauser), [Twitter](http://twitter.com/hauspoor), or [G+](http://plus.google.com/+elliotthauser).  
+Connect with me on [LinkedIn](http://linkedin.com/in/elliotthauser) or [Twitter](http://twitter.com/hauspoor).  
 
 If you find a typo, have a formatting fix or want to help make this site less hacky, the code is [on Github](https://github.com/eah13/elliotthauser.com).  I welcome contributions, especially from those new to open source!
