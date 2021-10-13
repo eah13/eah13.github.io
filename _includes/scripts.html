@@ -3,14 +3,11 @@
     <script type='text/javascript' src='/bower_components/foundation/js/foundation.js'></script>
     <script type='text/javascript' src='/bower_components/foundation/js/foundation/foundation.accordion.js'></script>
     <script type="text/javascript">
-      $(document).foundation();
-      $(".accordion").on("click", "dd", function (event) {
-        $("div.active").slideToggle("fast");
-        $(this).find(".content").slideToggle("fast");
-        // Todo: timing
-        $('html, body').animate({
-            scrollTop: ($(this).offset().top - 45)
-        },200);
-      });
-
+      $(document).foundation({
+        accordion: {
+          content_class: 'content',
+          active_class: 'active',
+          multi_expand: true,
+          toggleable: true
+        }});
     </script>

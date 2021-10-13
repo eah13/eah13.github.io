@@ -258,7 +258,6 @@ PLATFORMS
 DEPENDENCIES
   compass (~> 1.0)
   github-pages (= 202)
-  jekyll-sass-converter
   pkg-config (= 1.1)
   sass (~> 3.4)
 

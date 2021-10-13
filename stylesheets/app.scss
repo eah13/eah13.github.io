@@ -8,21 +8,28 @@
    .accordion .accordion-navigation > a, .accordion dd > a { font-size: 1.4em; }
 
 }
-.accordion i {
-  margin-right: .5em;
-}
 
-.accordion i.fa-angle-right{
-  display:inline;
-}
-.accordion i.fa-angle-down{
-  display:none;
-}
-.accordion .active i.fa-angle-right{
-  display:none;
-}
-.accordion .active i.fa-angle-down{
-  display:inline;
+.accordion {
+  i {
+    margin-right: .5em;
+
+    &.fa-angle-right{
+     display:inline;
+    }
+    &.fa-angle-down{
+     display:none;
+    }
+  }
+
+  .active {
+    i.fa-angle-right{
+      display:none;
+    }
+    i.fa-angle-down{
+      display:inline;
+    }
+  }
+
 }
 
 span.vcent {
