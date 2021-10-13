@@ -15,4 +15,9 @@ timezone: America/New_York
 github: http://github.com/eah13
 twitter: http://twitter.com/@hauspoor
 linkedin: http://linkedin.com/in/elliotthauser
+scholar: https://scholar.google.com/citations?user=OBskYc4AAAAJ&hl=en
+academia: https://utexas.academia.edu/elliott
 other_site: http://trinket.io
+
+sass:
+    sass_dir: _sass

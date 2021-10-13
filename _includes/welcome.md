@@ -1,10 +1,9 @@
-Welcome!  This site is a bunch of lists.
+Hello!  I am an Assistant Professor at the University of Texas at Austin [School of Information](https://ischool.utexas.edu) and co-founder of coding education company [Trinket](https://trinket.io).
 
-* Below is a list of my recent writings, on this blog and elsewhere.  I'll also throw in press every now and then. I hope you enjoy it.
-* Here's a list of some [stuff I do](bio.html).  
-* Here's a list of [tools I use as a startup founder](tools.html).  
-* And if you need a speaker at your next education or technology event [I do that too](speaking.html).
+As is idiomatic for these kinds of websites, here you can find:
 
-Connect with me on [LinkedIn](http://linkedin.com/in/elliotthauser), [Twitter](http://twitter.com/hauspoor), or [G+](http://plus.google.com/+elliotthauser).  
+* My [research interests](research)
+* Information for prospective student [advisees](advising)
+* Information on [my teaching](teaching)
 
-If you find a typo, have an formatting fix or want to help make this site less hacky, the code is [on Github](https://github.com/eah13/elliotthauser.com).  I welcome contributions, especially from those new to open source!
+A selection of my non-academic writings and press is below. You can find my recent publications on [Academia.edu](https://utexas.academia.edu/elliott) and [Google Scholar](https://scholar.google.com/citations?user=OBskYc4AAAAJ&hl=en&authuser=1).

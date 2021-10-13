@@ -1,6 +1,9 @@
 ---
-layout: default
+layout: page
 ---
+
+
+{% comment %}
 <div class="bio">
 <div class="row">
 <div class="small-10 medium-5 columns small-centered">
@@ -11,7 +14,7 @@ layout: default
 </div>
 <div class="row">
 <div class="small-9 columns small-centered">
-<div class="row">  
+<div class="row">
 
 <div class="small-12 medium-5 columns left">
 <a href="https://trinket.io">
@@ -19,21 +22,21 @@ layout: default
 </a>
 </div>
 <div class="small-12 medium-7 columns right">
-I'm building the easiest way to Teach With Code at <a href="http://trinket.io">trinket.io</a>.  
+I'm building the easiest way to Teach With Code at <a href="http://trinket.io">trinket.io</a>.
 </div>
 </div>
-<div class="row">  
+<div class="row">
 <div class="small-12 medium-5 columns right">
 <a href="https://python.org">
   <img src="/img/python-logo.png">
 </a>
 </div>
 <div class="small-12 medium-7 columns left">
-I've studied Art History at Duke, Information Science at UNC, and taught introduction to programming at UNC as a Royster Teaching Fellow.  
+I've studied Art History at Duke, Information Science at UNC, and taught introduction to programming at UNC as a Royster Teaching Fellow.
 </div>
 
 </div>
-<div class="row">  
+<div class="row">
 <div class="small-12 medium-5 columns left text-center">
 <span class="vcent"><i class="fa fa-camera-retro fa-5x"></i>&nbsp;<i class="fa fa-plus fa-5x"></i>&nbsp;<i class="fa fa-book fa-5x"></i></span>
 </div>
@@ -52,3 +55,4 @@ I like philosophy and photography.  That means photographs of philiosophers and 
 </div>
 </div>
 </div>
+{% endcomment %}

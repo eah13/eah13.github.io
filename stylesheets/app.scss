@@ -1,5 +1,7 @@
+---
+---
 @import "settings";
-@import "foundation";
+@import "../bower_components/foundation/scss/foundation";
 
 @media only screen and (max-width: 520px) {
 
@@ -31,8 +33,11 @@ li a i {
   margin-right: 1em;
 }
 
-.bio .row .row {
+#maincol {
   padding-top: 2rem;
+}
+
+.bio .row .row {
   padding-bottom: 1rem;
   .columns {
     display: inline-block;
