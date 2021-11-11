@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Teaching
 ---
 
 My teaching interests include organization of information, information studies, and technical skills such as software product management, research cyberinfrastructure, and programming.
