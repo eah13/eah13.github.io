@@ -1,6 +1,6 @@
 ---
 layout: post
-link: https://www.ischool.utexas.edu/news/ischool-welcomes-dr-elliott-hauser
+link: https://ischool.utexas.edu/news/ischool-welcomes-dr-elliott-hauser
 title: "Joining the Faculty at UT Austin's iSchool"
 ---
 
