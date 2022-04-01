@@ -1,7 +1,7 @@
 ---
 layout: post
 link: https://medium.com/good-systems/bringing-robots-into-the-real-world-q-a-with-peter-stone-and-elliott-hauser-86c1c7ebaf04
-title: "Bringing Robots into the Real World"
+title: "Interview: Bringing Robots into the Real World"
 ---
 
 *[Peter Stone](https://www.cs.utexas.edu/~pstone/) and I discuss the Living and Working With Robots cross-campus collaboration at UT Austin, funded by [Good Systems](https://bridgingbarriers.utexas.edu/good-systems/), a UT Grand Challenge.*
