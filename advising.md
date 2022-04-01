@@ -7,7 +7,7 @@ title: Advising
 
 I view postdocs as valued collaborators who are able to rapidly contribute to existing projects, eventually developing and leading robust independent projects in coordination with me and my faculty collaborators. These scholars bring deep existing expertise and value the opportunity to develop new skills and professional connections on projects of mutual interest. Postdocs will be provided with funds to support their research and the dissemination travel required to achieve high visibility. To the extent possible, I like my postdocs to have access to a cohort of peers for networking and peer mentorship, in addition to formal mentorship from me and from other faculty colleagues directly involved in our joint research projects.
 
-I will be hiring a Postdoctoral Research Fellow to join the interdisciplinary Living and Working with Robots project. The call will go out in Spring 2022 and the role will start in Fall 2022 or soon thereafter. If you are a recent or expected doctoral graduate interested in embodied sociotechnical systems via campus-scale robot deployments, stay tuned for the call or email me at eah13 at utexas.edu.
+**I am hiring a Postdoctoral Research Fellow to join the interdisciplinary Living and Working with Robots project.** The [call for applications](https://apply.interfolio.com/105047) was posted April 1, 2022, review of applications will begin May 1, 2022, and the role will start September 1, 2022 or soon thereafter. If you are a recent or expected doctoral graduate interested in embodied sociotechnical systems via campus-scale robot deployments, please consider applying! Questions about the position are welcome and can be sent to eah13 at utexas.edu.
 
 # Doctoral Students
 
