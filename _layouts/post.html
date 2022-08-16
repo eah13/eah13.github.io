@@ -7,6 +7,6 @@ layout: default
 <div class="post">
   {{ content }}
   {% if post.link %}
-    <div class="footer">Read more on {% capture domain %}{{ post.link | remove:'http://' | split:'/' | first }}{% endcapture %} <a href="{{post.link}}">{{ domain }}</a>
+    <div class="footer">{% if page.video %}Watch{% else %}Read more{% endif %} on {% capture domain %}{{ post.link | remove:'http://' | split:'/' | first }}{% endcapture %} <a href="{{post.link}}">{{ domain }}</a>
   {% endif %}
 </div>

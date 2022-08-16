@@ -20,4 +20,11 @@ academia: https://utexas.academia.edu/elliott
 other_site: http://trinket.io
 
 sass:
-    sass_dir: _sass
+  implementation: sass-embedded
+  style: expanded
+  load_paths: ['bower_components/foundation/scss']
+  
+    
+# Cloud9 settings
+host: 0.0.0.0
+port: 8080
