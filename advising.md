@@ -7,7 +7,20 @@ title: Advising
 
 I view postdocs as valued collaborators who are able to rapidly contribute to existing projects, eventually developing and leading robust independent projects in coordination with me and my faculty collaborators. These scholars bring deep existing expertise and value the opportunity to develop new skills and professional connections on projects of mutual interest. Postdocs will be provided with funds to support their research and the dissemination travel required to achieve high visibility. To the extent possible, I like my postdocs to have access to a cohort of peers for networking and peer mentorship, in addition to formal mentorship from me and from other faculty colleagues directly involved in our joint research projects.
 
-**I am hiring a Postdoctoral Research Fellow to join the interdisciplinary Living and Working with Robots project.** The [call for applications](https://apply.interfolio.com/105047) was posted April 1, 2022, review of applications will begin May 1, 2022, and the role will start September 1, 2022 or soon thereafter. If you are a recent or expected doctoral graduate interested in embodied sociotechnical systems via campus-scale robot deployments, please consider applying! Questions about the position are welcome and can be sent to eah13 at utexas.edu.
+**Update: Cultural Anthropologist Boh Chun will be joining the interdisciplinary Living and Working with Robots project as a Postdoctoral Research Fellow!** The [call for applications](https://apply.interfolio.com/105047) was posted April 1, 2022, review of applications began May 1, 2022, and the role will start in the Fall of 2022.
+
+If you are a recent or expected doctoral graduate interested in embodied sociotechnical systems via campus-scale robot deployments, please get in touch with me at eah13 at utexas.edu. 
+
+
+# Professional Research Engineers
+
+**I and my collaborators plan to hire several [Research Cyberinfrastructure Engineers](https://www.nsf.gov/pubs/2022/nsf22052/nsf22052.jsp) over the next several years.** These positions are professional staff positions for those seeking to build a career developing, adapting, and maintaining software, hardware, and infrastructure for robotics and applied AI research. Cyberinfrastructure engineers solve hard problems in robotic systems and research workflows so that scientics can solve hard problems in fields like Long-Term Autonomy, Human-Robot Interaction, and the convergent field of Community Embedded Robotics. Doctoral training may be helpful in these roles, but hands-on experience in research or industry is the most important preparation, regardless of where you developed it. 
+
+The ongoing push to properly value and support infrastructural engineering in science mirrors the recognition of the importance of process, maintenance, and systems-level expertise in industry. In industry, these skills might be referred to as "continuous integration and deployment" (CI/CD) or "DevOps engineering" for robotics or other embedded systems. If you do this kind of work in academia, it's likely that you're the 'glue' person in your lab that makes research easier by developing and documenting helpful workflows. Regardless, you probably enjoy perfecting process and helping a team become more efficient at least as much as doing research. The National Science Foundation, UT Austin, and Texas Robotics all recognize the critical importance of these roles in the context of research. 
+
+The ability to safely, reliably, and reproducibly deploy a heterogenous fleet of robots  over a wide, populated area is a core aspect of Living and Working with Robots research. It remains a difficult problem with fast-evolving tools and best practices, and excellence in this area will have a broad impact on the ability of researchers to develop better, safer, more adaptable forms of robotic autonomy. We will thus develop, recruit, and support the most promising professionals seeking careers in this area as key partners on our research team.
+
+If you have experience with DevOps for robotic or embedded systems, cyberinfrastructure or workflow optimization for applied AI, or reproducible system configuration and are interested in accelerating the pace of research as a valued member of our team, please get in touch with me!
 
 # Doctoral Students
 

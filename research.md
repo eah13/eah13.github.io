@@ -2,9 +2,9 @@
 layout: page
 ---
 
-I am broadly interested in the ways information systems condition social reality. I study sites and situations where actions are taken because of information and information systems. I employ theoretical, qualitative, and sociotechnical methods in my work.
+I am broadly interested in the ways information systems intra-act with other aspects of social reality. I study sites and situations where actions are taken because of information and information systems. I employ theoretical, qualitative, and sociotechnical methods in my work.
 
-You can find my recent publications on [Academia.edu](https://utexas.academia.edu/elliott) and [Google Scholar](https://scholar.google.com/citations?user=OBskYc4AAAAJ&hl=en&authuser=1).
+You can find my recent publications on [Academia.edu]({{site.academia}}) and [Google Scholar]({{site.scholar}}).
 
 # Certainty and Information
 
@@ -17,7 +17,7 @@ This project began with [my dissertation](dissertation), which developed a frame
 
 # Sociotechnical Robotics
 
-As a Co-Lead of the Living and Working With Robots project at UT Austin, I am studying the rollout of robots on the UT Austin campus. Together with 10 other collaborators, I am applying a range of disciplinary perspectives and methods to the process of robotic design and research, the work of deploying and maintaining robots, and the effects these actions have upon the campus community. The project's goal is to learn how the process of making and deploying technology impacts a community and how to enable technologists and community members to better understand and communicate with each other. Specific project in this research theme include:
+As a Co-Lead of the Living and Working With Robots project at UT Austin, I am studying the rollout of robots on the UT Austin campus. Together with 10 other collaborators, I am applying a range of disciplinary perspectives and methods to the process of robotic design and research, the work of deploying and maintaining robots, and the effects these actions have upon the campus community. The project's goal is to learn how the process of making and deploying technology impacts a community and how to enable technologists and community members to better understand and communicate with each other. Specific projects in this research theme include:
 
 * A mixed methods HRI/STS study of how canine visual metaphors impact reception of autonomous quadruped robots
 * A study of how notions of the domestic are constructed within the [RoboCup@Home](https://athome.robocup.org/) service robotics competition
