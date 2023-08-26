@@ -5,8 +5,10 @@ layout: default
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
+  
   {{ content }}
-  {% if post.link %}
-    <div class="footer">{% if page.video %}Watch{% else %}Read more{% endif %} on {% capture domain %}{{ post.link | remove:'http://' | split:'/' | first }}{% endcapture %} <a href="{{post.link}}">{{ domain }}</a>
-  {% endif %}
+  
+  {% comment %}
+    Edit index.html to change main display of posts
+  {% endcomment %}
 </div>
