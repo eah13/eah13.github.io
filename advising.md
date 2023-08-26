@@ -7,7 +7,7 @@ title: Advising
 
 I view postdocs as valued collaborators who are able to rapidly contribute to existing projects, eventually developing and leading robust independent projects in coordination with me and my faculty collaborators. These scholars bring deep existing expertise and value the opportunity to develop new skills and professional connections on projects of mutual interest. Postdocs will be provided with funds to support their research and the dissemination travel required to achieve high visibility. To the extent possible, I like my postdocs to have access to a cohort of peers for networking and peer mentorship, in addition to formal mentorship from me and from other faculty colleagues directly involved in our joint research projects.
 
-**Update: Cultural Anthropologist Boh Chun will be joining the interdisciplinary Living and Working with Robots project as a Postdoctoral Research Fellow!** The [call for applications](https://apply.interfolio.com/105047) was posted April 1, 2022, review of applications began May 1, 2022, and the role will start in the Fall of 2022.
+**Update: Cultural Anthropologist [Boh Chun](https://www.researchgate.net/profile/Bohkyung-Chun-2) has joined the interdisciplinary [Living and Working with Robots](https://bridgingbarriers.utexas.edu/good-systems/projects/living-and-working-with-robots) project as a Postdoctoral Research Fellow!** The [call for applications](https://apply.interfolio.com/105047) was originally posted April 1, 2022 with a start date in Fall 2022.
 
 If you are a recent or expected doctoral graduate interested in embodied sociotechnical systems via campus-scale robot deployments, please get in touch with me at eah13 at utexas.edu. 
 

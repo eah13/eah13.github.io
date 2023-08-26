@@ -39,7 +39,7 @@ title: Welcome!
         <div>
           {% if post.video %}{% assign linktext="Watch the video" %}
           {% elsif post.paper %}{% assign linktext="Read the paper" %}
-          {% else %}Read more on {% capture linktext %}{{ post.link | remove:'http://' | split:'/' | first }}{% endcapture %}{% endif %}
+          {% else %}Read more on {% capture linktext %}{{ post.link | replace: 'https://', 'http://' | remove:'http://' | split:'/' | first }}{% endcapture %}{% endif %}
           <a href="{{post.link}}" onclick="ga('send', 'event', 'Reading', 'Follow Link', '{{ post.title | slugify }}')">{{ linktext }}</a>
         </div>
         
