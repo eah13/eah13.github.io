@@ -3,15 +3,16 @@ layout: page
 title: Advising
 ---
 
+Collaborating with and advising junior scholars is one of my favorite parts of my job.
+
 # Postdoctoral Researchers
+I'm currently supervising cultural anthropologist [Boh Chun](https://anthrobot.me/), who joined the interdisciplinary [Living and Working with Robots](https://bridgingbarriers.utexas.edu/good-systems/projects/living-and-working-with-robots) project as a Postdoctoral Research Fellow in late 2022. The [call for applications](https://apply.interfolio.com/105047) was originally posted April 1, 2022 with a start date in Fall 2022.
 
 I view postdocs as valued collaborators who are able to rapidly contribute to existing projects, eventually developing and leading robust independent projects in coordination with me and my faculty collaborators. These scholars bring deep existing expertise and value the opportunity to develop new skills and professional connections on projects of mutual interest. Postdocs will be provided with funds to support their research and the dissemination travel required to achieve high visibility. To the extent possible, I like my postdocs to have access to a cohort of peers for networking and peer mentorship, in addition to formal mentorship from me and from other faculty colleagues directly involved in our joint research projects.
 
-**Update: Cultural Anthropologist [Boh Chun](https://www.researchgate.net/profile/Bohkyung-Chun-2) has joined the interdisciplinary [Living and Working with Robots](https://bridgingbarriers.utexas.edu/good-systems/projects/living-and-working-with-robots) project as a Postdoctoral Research Fellow!** The [call for applications](https://apply.interfolio.com/105047) was originally posted April 1, 2022 with a start date in Fall 2022.
-
 If you are a recent or expected doctoral graduate interested in embodied sociotechnical systems via campus-scale robot deployments, please get in touch with me at eah13 at utexas.edu. 
 
-
+<!--
 # Professional Research Engineers
 
 **I and my collaborators plan to hire several [Research Cyberinfrastructure Engineers](https://www.nsf.gov/pubs/2022/nsf22052/nsf22052.jsp) over the next several years.** These positions are professional staff positions for those seeking to build a career developing, adapting, and maintaining software, hardware, and infrastructure for robotics and applied AI research. Cyberinfrastructure engineers solve hard problems in robotic systems and research workflows so that scientics can solve hard problems in fields like Long-Term Autonomy, Human-Robot Interaction, and the convergent field of Community Embedded Robotics. Doctoral training may be helpful in these roles, but hands-on experience in research or industry is the most important preparation, regardless of where you developed it. 
@@ -21,8 +22,10 @@ The ongoing push to properly value and support infrastructural engineering in sc
 The ability to safely, reliably, and reproducibly deploy a heterogenous fleet of robots  over a wide, populated area is a core aspect of Living and Working with Robots research. It remains a difficult problem with fast-evolving tools and best practices, and excellence in this area will have a broad impact on the ability of researchers to develop better, safer, more adaptable forms of robotic autonomy. We will thus develop, recruit, and support the most promising professionals seeking careers in this area as key partners on our research team.
 
 If you have experience with DevOps for robotic or embedded systems, cyberinfrastructure or workflow optimization for applied AI, or reproducible system configuration and are interested in accelerating the pace of research as a valued member of our team, please get in touch with me!
-
+-->
 # Doctoral Students
+
+My current doctoral advisees include [Yao-Cheng Chan](https://yaochengchan.com/) and [Angjelin Hila](https://angjelinhila.medium.com/). I serve on several doctoral committees at the UT iSchool, Mechanical Engineering, Nursing, and Communication Studies.
 
 I am recruiting doctoral students to work with me on several of my [research]({{site.baseurl}}/research) projects. My goal for all of my students is a powerful combination of social and technical expertise enabling cutting-edge research on sociotechnical systems. The interdisciplinary combination of skills I target for students at the end of their studies is difficult to come by in undergraduate or masters-level study, so my students usually have deep social scientific OR technical training, with a demonstrated and developing interest in the area they're less familiar with. For instance, students might have a humanities background and a developing interest in programming interactive fiction; others might have studied computer science but completed training in sociology or anthropology. That said, there are many paths to the field of information, and I welcome inquiries from potential students of any background. If you reach out, please include a paragraph or so about your research interests, the overlap you see with my work, and a CV or resume, to eah13 at utexas.edu.
 
