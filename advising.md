@@ -3,14 +3,16 @@ layout: page
 title: Advising
 ---
 
-Collaborating with and advising junior scholars is one of my favorite parts of my job.
+Collaborating with and advising junior scholars is one of my favorite parts of my job. This page details how I work with junior scholars and what it's like to work with me.
 
 # Postdoctoral Researchers
-I'm currently supervising cultural anthropologist [Boh Chun](https://anthrobot.me/), who joined the interdisciplinary [Living and Working with Robots](https://bridgingbarriers.utexas.edu/good-systems/projects/living-and-working-with-robots) project as a Postdoctoral Research Fellow in late 2022. The [call for applications](https://apply.interfolio.com/105047) was originally posted April 1, 2022 with a start date in Fall 2022.
+
 
 I view postdocs as valued collaborators who are able to rapidly contribute to existing projects, eventually developing and leading robust independent projects in coordination with me and my faculty collaborators. These scholars bring deep existing expertise and value the opportunity to develop new skills and professional connections on projects of mutual interest. Postdocs will be provided with funds to support their research and the dissemination travel required to achieve high visibility. To the extent possible, I like my postdocs to have access to a cohort of peers for networking and peer mentorship, in addition to formal mentorship from me and from other faculty colleagues directly involved in our joint research projects.
 
-If you are a recent or expected doctoral graduate interested in embodied sociotechnical systems via campus-scale robot deployments, please get in touch with me at eah13 at utexas.edu. 
+If you are a recent or expected doctoral graduate studying in qualitative research-driven AI evaluation and application infrastructure, epistemic injustice in archives and the ontological consequences thereof, or embodied sociotechnical systems such as campus-scale robot deployments, please get in touch with me at eah13 at utexas.edu. Note: these areas are just those most likely to be fundable with my current or in-progress grants. I'd also love to work with postdoctoral fellows on any of my [research interests]({{site.baseurl}}/research) if the fellow can secure their own funding. If you are applying for or have secured NSF, foundation, or other postdoctoral research funds I'd be happy to discuss mutual interests and, if the opportunity seems like a mutual fit, provide the materials typically requested of prospective supervisors.
+
+Past postdoctoral collaborators include cultural anthropologist [Boh Chun](https://anthrobot.me/), who joined the interdisciplinary [Living and Working with Robots](https://bridgingbarriers.utexas.edu/good-systems/projects/living-and-working-with-robots) project as a Postdoctoral Research Fellow in late 2022. The [call for applications](https://apply.interfolio.com/105047) was originally posted April 1, 2022 with a start date in Fall 2022 or Spring 2023.
 
 <!--
 # Professional Research Engineers
@@ -35,7 +37,7 @@ My approach to doctoral advising is holistic and structured. I share a variety o
 
 Doctoral study is a wonderful opportunity to learn to do advanced research and develop expertise in a topic you are passionate about. It is in most cases only appropriate for students seeking careers in academic or industry research. Doctoral students at UT Austin are provided with a mixture of fellowship, research, and teaching-based funding, so in most cases students will have little to no out of pocket expenses for their research activities. Even though most students can cover modest living expenses during doctoral study via their stipends, there is always a financial opportunity cost of studying compared to working. It's important to me that all of my students understand the career choices they're making and are fully informed when they do so. I'm happy to discuss this with any prospective student so that they can feel confident in entering doctoral study, at UT Austin or elsewhere.
 
-As students near the end of their doctoral study, I will assist them in locating and applying for job targets that fit their goals and interests.
+As students near the end of their doctoral study, I assist them in locating and applying for job targets that fit their goals and interests.
 
 I also periodically supervise doctoral students in directed readings or research on topics or projects of mutual interest, regardless of whether I'm their formal advisor. If you're an existing iSchool or UT Austin doctoral student interested in working with me in this way please reach out.
 
