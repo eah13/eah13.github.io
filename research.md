@@ -19,7 +19,7 @@ I conduct theoretical and archival research on sites and situations where action
 
 This research stream draws from and expands upon [my dissertation research](dissertation), which developed a framework for the analysis of certainty production in information systems, and applied that to the global sociotechnical endeavor of computational timekeeping.
 
-Current and past collaborators in this stream of research include [Beth Patin](https://ischool.syracuse.edu/beth-patin/#Biography), [Joseph T. Tennis](https://scholar.google.com/citations?user=MwYUhTEAAAAJ&hl=en), and [Steve Slota](https://scholar.google.com/citations?user=ceOicggAAAAJ&hl=en).
+Current and past collaborators in this stream of research include [Kim Engels](https://kimberlyengels.academia.edu/), [Beth Patin](https://ischool.syracuse.edu/beth-patin/#Biography), [Joseph T. Tennis](https://scholar.google.com/citations?user=MwYUhTEAAAAJ&hl=en), and [Steve Slota](https://scholar.google.com/citations?user=ceOicggAAAAJ&hl=en).
 
 # Sociotechnical Robotics
 
