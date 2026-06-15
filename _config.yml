@@ -22,9 +22,19 @@ other_site: http://trinket.io
 sass:
   implementation: sass-embedded
   style: expanded
-  load_paths: ['bower_components/foundation/scss']
+  load_paths: ['_sass']
   
     
-# Cloud9 settings
+# Local dev server settings
 host: 0.0.0.0
 port: 8080
+
+exclude:
+  - docs
+  - README.md
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - LICENSE.md

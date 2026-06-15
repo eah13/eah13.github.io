@@ -9,27 +9,8 @@
     <!-- syntax highlighting CSS -->
     <link rel="stylesheet" href="/css/syntax.css">
 
-    <script src="bower_components/modernizr/modernizr.js"></script>
-
-    <!-- Fontawesome -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <!--Foundation CSS-->
+    <!-- Site styles -->
     <link rel="stylesheet" href="/css/app.css">
-
-
-    <!-- Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-20109396-1', 'elliotthauser.com');
-      ga('require', 'displayfeatures');
-      ga('send', 'pageview');
-
-    </script>
   </head>
   <body>
     <div class="fixed contain-to-grid">
@@ -44,13 +25,13 @@
           <!-- Right Nav Section -->
           <ul class="right">
             <li class="has-dropdown">
-              <a href="#"><i class="fa fa-comments-o"></i>Let's connect</a>
+              <a href="#">{% include icon.html name="comments" %}Let's connect</a>
               <ul class="dropdown">
-                <li><a href="{{site.academia}}"><i class="fa fa-university fa-large"></i>Academia.edu</a></li>
-                <li><a href="{{site.scholar}}"><i class="fa fa-mortar-board fa-large"></i>Google Scholar</a></li>
+                <li><a href="{{site.academia}}">{% include icon.html name="university" %}Academia.edu</a></li>
+                <li><a href="{{site.scholar}}">{% include icon.html name="mortar-board" %}Google Scholar</a></li>
 {% comment %} R.I.P., old friend     <li><a href="{{site.twitter}}"><i class="fa fa-twitter fa-large"></i>Twitter</a></li> --> {% endcomment %}
-                <li><a href="{{site.github}}"><i class="fa fa-github fa-large"></i>Github</a></li>
-                <li><a href="{{site.linkedin}}"><i class="fa fa-linkedin fa-large"></i>LinkedIn</a></li>
+                <li><a href="{{site.github}}">{% include icon.html name="github" %}Github</a></li>
+                <li><a href="{{site.linkedin}}">{% include icon.html name="linkedin" %}LinkedIn</a></li>
               </ul>
             </li>
           </ul>

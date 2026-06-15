@@ -1,99 +1,178 @@
 ---
 ---
-@import "settings";
-@import "../bower_components/foundation/scss/foundation";
+@use "settings" as *;
 
-@media only screen and (max-width: 520px) {
+/* ---------- base ---------- */
+* { box-sizing: border-box; }
 
-   .accordion .accordion-navigation > a, .accordion dd > a { font-size: 1.4em; }
+html { font-size: 100%; }
 
+body {
+  margin: 0;
+  background: $body-bg;
+  color: $body-font-color;
+  font-family: $body-font-family;
+  padding-top: $topbar-height;   // reserve space for the fixed top bar
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
+a {
+  color: $anchor-color;
+  text-decoration: none;
+  line-height: inherit;
+  &:hover, &:focus { color: $anchor-color-hover; }
+}
+
+img { max-width: 100%; height: auto; -ms-interpolation-mode: bicubic; }
+
+p  { margin: 0 0 1.25rem; line-height: 1.6; }
+ul, ol { margin: 0 0 1.25rem 1.25rem; line-height: 1.6; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: normal;
+  color: $body-font-color;
+  line-height: 1.4;
+  margin: 0.2rem 0 0.5rem;
+  text-rendering: optimizeLegibility;
+}
+h1 { font-size: 2.125rem; }
+h2 { font-size: 1.6875rem; }
+h3 { font-size: 1.375rem; }
+h4 { font-size: 1.125rem; }
+h5 { font-size: 1.125rem; }
+h6 { font-size: 1rem; }
+@media only screen and (min-width: $medium-breakpoint) {
+  h1 { font-size: 2.75rem; }
+  h2 { font-size: 2.3125rem; }
+  h3 { font-size: 1.6875rem; }
+  h4 { font-size: 1.4375rem; }
+}
+
+hr { border: none; border-top: 1px solid #ddd; margin: 1.25rem 0; height: 0; }
+
+/* ---------- grid shim (preserves the legacy grid class names) ---------- */
+.row {
+  max-width: $row-width;
+  margin: 0 auto;
+  width: 100%;
+  &::after { content: ""; display: table; clear: both; }
+  // nested rows are full-width, no max
+  .row { max-width: none; width: auto; margin: 0 (-$column-gutter-half); }
+}
+.columns {
+  float: left;
+  width: 100%;
+  padding: 0 $column-gutter-half;
+}
+.small-centered { float: none; margin: 0 auto; }
+@media only screen and (min-width: $medium-breakpoint) {
+  .medium-10 { width: 83.3333%; }
+}
+
+/* ---------- top-bar nav ---------- */
+.fixed.contain-to-grid { width: 100%; left: 0; position: fixed; top: 0; z-index: 99; }
+
+.top-bar {
+  background: $topbar-bg;
+  height: $topbar-height;
+  line-height: $topbar-height;
+  margin-bottom: 0;
+  overflow: visible;
+
+  ul { margin: 0; list-style: none; }
+
+  .title-area { float: left; margin: 0; }
+  .name {
+    height: $topbar-height;
+    margin: 0;
+    h1 { font-size: 1.0625rem; line-height: $topbar-height; margin: 0; }
+    h1 a { color: $topbar-link-color; font-weight: normal; display: block; padding: 0 $column-gutter-half; }
+  }
+
+  .toggle-topbar { display: none; } // single-row nav; no JS hamburger
+
+  .top-bar-section {
+    ul { display: inline; }
+    ul.right { float: right; }
+    li { display: inline-block; }
+    li > a {
+      display: block;
+      color: $topbar-link-color;
+      padding: 0 $column-gutter-half;
+      line-height: $topbar-height;
+      background: $topbar-bg;
+      font-size: 0.8125rem;
+      &:hover { background: $topbar-link-hover; color: $topbar-link-color; }
+    }
+
+    // "Let's connect" dropdown on hover/focus
+    li.has-dropdown { position: relative; }
+    li.has-dropdown > a::after {
+      content: ""; display: inline-block; margin-left: 0.5em;
+      border: 5px solid transparent; border-top-color: rgba(255,255,255,0.6);
+      position: relative; top: 3px;
+    }
+    .dropdown {
+      position: absolute; left: 0; top: $topbar-height;
+      display: none; min-width: 200px; z-index: 99;
+      background: $topbar-bg; padding: 0;
+      li { display: block; }
+      li > a { line-height: 2.8125rem; white-space: nowrap; }
+    }
+    li.has-dropdown:hover > .dropdown,
+    li.has-dropdown:focus-within > .dropdown { display: block; }
+  }
+}
+
+/* ---------- main column ---------- */
+#maincol:not(.postlist) { padding-top: 2rem; }
+
+/* ---------- accordion ---------- */
 .accordion {
-  i {
-    margin-right: .5em;
+  margin: 0; list-style: none;
 
-    &.fa-angle-right{
-     display:inline;
-    }
-    &.fa-angle-down{
-     display:none;
-    }
+  .accordion-navigation { display: block; margin: 0; }
+  .accordion-navigation > a {
+    background: #efefef;
+    color: #222;
+    display: block;
+    padding: 1rem;
+    font-size: 1rem;
+    border-bottom: 1px solid #fff;
+    &:hover { background: #e3e3e3; }
   }
 
-  .active {
-    i.fa-angle-right{
-      display:none;
-    }
-    i.fa-angle-down{
-      display:inline;
-    }
-  }
+  .content { display: none; padding: $column-gutter-half; }
+  .content.active { display: block; }
 
+  // icons are inline <svg class="icon ..."> (Task 4), not <i> tags
+  .accordion-navigation > a .icon { margin-right: 0.5em; }
+  .icon-angle-right { display: inline; }
+  .icon-angle-down  { display: none; }
+  .accordion-navigation > a.active .icon-angle-right { display: none; }
+  .accordion-navigation > a.active .icon-angle-down  { display: inline; }
 }
 
-span.vcent {
-  vertical-align: middle;
+@media only screen and (max-width: $nav-collapse) {
+  .accordion .accordion-navigation > a, .accordion dd > a { font-size: 1.4em; }
 }
 
-li a i {
-  margin-right: 1em;
-}
-
-#maincol:not(.postlist) {
-  padding-top: 2rem;
-}
+/* ---------- misc page-specific (carried over) ---------- */
+span.vcent { vertical-align: middle; }
+li a .icon { margin-right: 1em; }  // nav icons are inline <svg class="icon"> (Task 4)
 
 .bio .row .row {
   padding-bottom: 1rem;
-  .columns {
-    display: inline-block;
-    vertical-align: middle;
-  }
+  .columns { display: inline-block; vertical-align: middle; }
 }
 
 .speaking div {
-  p, ul {
-  padding: 0 1.5em 0 1.5em;
-  }
-  hr {
-    margin-top: 8px;
-  }
+  p, ul { padding: 0 1.5em; }
+  hr { margin-top: 8px; }
 }
-// Or selectively include components
-// @import
-//   "foundation/components/accordion",
-//   "foundation/components/alert-boxes",
-//   "foundation/components/block-grid",
-//   "foundation/components/breadcrumbs",
-//   "foundation/components/button-groups",
-//   "foundation/components/buttons",
-//   "foundation/components/clearing",
-//   "foundation/components/dropdown",
-//   "foundation/components/dropdown-buttons",
-//   "foundation/components/flex-video",
-//   "foundation/components/forms",
-//   "foundation/components/grid",
-//   "foundation/components/inline-lists",
-//   "foundation/components/joyride",
-//   "foundation/components/keystrokes",
-//   "foundation/components/labels",
-//   "foundation/components/magellan",
-//   "foundation/components/orbit",
-//   "foundation/components/pagination",
-//   "foundation/components/panels",
-//   "foundation/components/pricing-tables",
-//   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
-//   "foundation/components/side-nav",
-//   "foundation/components/split-buttons",
-//   "foundation/components/sub-nav",
-//   "foundation/components/switches",
-//   "foundation/components/tables",
-//   "foundation/components/tabs",
-//   "foundation/components/thumbs",
-//   "foundation/components/tooltips",
-//   "foundation/components/top-bar",
-//   "foundation/components/type",
-//   "foundation/components/offcanvas",
-//   "foundation/components/visibility";
+
+/* inline-SVG icon sizing */
+.icon { width: 1em; height: 1em; fill: currentColor; vertical-align: -0.125em; }
