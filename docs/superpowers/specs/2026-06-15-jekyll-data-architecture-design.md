@@ -36,7 +36,7 @@ Both files use one shared entry schema, so one renderer serves both:
 | `title` | yes      | Entry title. |
 | `link`  | no       | External URL (DOI, video, news page). |
 | `date`  | yes      | Publish date (`YYYY-MM-DD`, unquoted → YAML `Date`). Drives sort + the "First published on" line. Was previously derived from the post filename. |
-| `type`  | papers: no / highlights: yes | Drives the link label. Omitted in `papers.yml` (implicitly `paper`). Present in `highlights.yml` (`video`, `news`). |
+| `type`  | no       | Drives the link label. Optional in **both** files. `papers.yml` omits it (the papers loop defaults it to `paper`). `highlights.yml` sets `video` for the two talks and omits it for the five news items (which then fall through to the default "Read more on *domain*" label). |
 | `blurb` | see below | Markdown body (block scalar `\|`). Elliott's take on the item, often with an abstract excerpt and a collaborators line. |
 
 ### `_data/papers.yml` — comprehensive publications list
@@ -62,7 +62,10 @@ Both files use one shared entry schema, so one renderer serves both:
 
 ### `_data/highlights.yml` — curated non-paper items
 
-- `type` is **explicit** (`video` for the two talks, `news` for the other five).
+- `type` is **optional**: `video` for the two talks; **omitted** for the five news items.
+  A typeless highlight gets the default "Read more on *domain*" label (its current
+  behavior). Future scope may introduce richer types (e.g. `interview`, `cfp`) to customize
+  display — not done now.
 - Every highlight renders on the homepage (placing it here = choosing to show it). All
   seven carry their existing body text as `blurb`.
 
@@ -79,12 +82,14 @@ Both files use one shared entry schema, so one renderer serves both:
 ### Link-label rule (unchanged from current behavior)
 
 - `type == video` → "Watch the video"
-- `type == paper` (incl. omitted) → "Read the paper"
+- `type == paper` → "Read the paper" (the papers loop supplies this default for its
+  typeless entries)
 - otherwise (e.g. `news`) → "Read more on *<domain-of-link>*"
 
-This reproduces `index.html`'s existing `video`/`paper`/else logic. The five `news`
-entries currently have no flag, so they get the "Read more on *domain*" label today and
-keep it.
+This reproduces `index.html`'s existing `video`/`paper`/else logic. The default-to-`paper`
+behavior is applied **by the papers loop only** (papers are typeless but should read "Read
+the paper"); typeless `highlights.yml` entries are passed through untyped and hit the else
+branch, exactly as the five flagless news posts do today.
 
 ## Homepage rendering
 
@@ -119,7 +124,8 @@ Extract `_includes/feed-entry.html` taking `title`, `date`, `body` (markdown), `
 `type`, and `index` (for the `#panel{{ index }}` anchor). Both the data loop and the essay
 loop call it, removing the current duplicated accordion markup. The essay loop passes
 `post.content` as `body` and `post.link`/`post.video`/`post.paper`-derived `type`; the data
-loop passes `blurb` and the entry's `type`.
+loop passes `blurb` and the entry's `type` — the **papers** loop substitutes `paper` when an
+entry's `type` is absent, the **highlights** loop passes the raw (possibly absent) `type`.
 
 ## Migration & cleanup
 
@@ -136,9 +142,10 @@ loop passes `blurb` and the entry's `type`.
 `2024-09-16-nurse-perspectives`, `2024-10-30-vid2real`, `2024-11-24-accomplishing-autonomy`,
 `2024-12-15-etiology`, `2025-02-04-vantages`, `2025-02-28-facts`.
 
-`highlights.yml` (7): `2022-04-08-LWR-GS` (video), `2023-07-11-tas` (video),
-`2020-05-07-ischool-welcome` (news), `2021-11-11-interview` (news), `2022-02-28-4s-cfp`
-(news), `2022-03-07-lsi-hri` (news), `2022-04-01-sociotech-postdoc` (news).
+`highlights.yml` (7): `2022-04-08-LWR-GS` (`type: video`), `2023-07-11-tas`
+(`type: video`), and five with **no `type`**: `2020-05-07-ischool-welcome`,
+`2021-11-11-interview`, `2022-02-28-4s-cfp`, `2022-03-07-lsi-hri`,
+`2022-04-01-sociotech-postdoc`.
 
 ## Verification
 
