@@ -1,0 +1,18 @@
+{%- assign pid = include.panel_id | append: include.anchor -%}
+<dd class="accordion-navigation">
+<a href="#{{ pid }}">{% include icon.html name="angle-right" %}{% include icon.html name="angle-down" %}{{ include.title }}</a>
+<div id="{{ pid }}" class="content">
+  <div class="text-right post-date"><em>First published on {{ include.date | date: "  %B %e, %Y" }}</em></div>
+
+  {{ include.body | markdownify }}
+
+  {% if include.link %}
+  <div>
+    {% if include.type == "video" %}{% assign linktext = "Watch the video" %}
+    {% elsif include.type == "paper" %}{% assign linktext = "Read the paper" %}
+    {% else %}Read more on {% capture linktext %}{{ include.link | replace: 'https://', 'http://' | remove: 'http://' | split: '/' | first }}{% endcapture %}{% endif %}
+    <a href="{{ include.link }}">{{ linktext }}</a>
+  </div>
+  {% endif %}
+</div>
+</dd>
