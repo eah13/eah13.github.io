@@ -53,7 +53,7 @@ h6 { font-size: 1rem; }
 
 hr { border: none; border-top: 1px solid #ddd; margin: 1.25rem 0; height: 0; }
 
-/* ---------- grid shim (preserves Foundation class names) ---------- */
+/* ---------- grid shim (preserves the legacy grid class names) ---------- */
 .row {
   max-width: $row-width;
   margin: 0 auto;

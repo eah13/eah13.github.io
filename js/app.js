@@ -1,4 +1,4 @@
-// Accordion: toggle each panel independently (replaces Foundation multi_expand+toggleable).
+// Accordion: toggle each panel independently (multi-expand, all toggleable).
 document.addEventListener("DOMContentLoaded", function () {
   var headers = document.querySelectorAll(".accordion .accordion-navigation > a");
   headers.forEach(function (header) {

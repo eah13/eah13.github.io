@@ -1,8 +1,8 @@
-// Minimal site variables (replaces the Foundation 5 settings file)
+// Minimal site variables (replaces the old framework settings file)
 $body-bg:            #fff;
 $body-font-color:    #222;
 $body-font-family:   Gulim, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$anchor-color:       #008cba;   // Foundation 5 default link color
+$anchor-color:       #008cba;   // default link blue
 $anchor-color-hover: #0078a0;
 
 $topbar-bg:          #333;
@@ -10,7 +10,7 @@ $topbar-link-color:  #fff;
 $topbar-link-hover:  #272727;
 $topbar-height:      45px;
 
-$row-width:          62.5rem;   // 1000px, Foundation default container
+$row-width:          62.5rem;   // 1000px container width
 $column-gutter:      1.875rem;  // 30px
 $column-gutter-half: $column-gutter * 0.5;  // 0.9375rem
 $medium-breakpoint:  40em;      // 640px
