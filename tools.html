@@ -21,7 +21,7 @@ layout: default
     {% endfor %}
   {% if print == "true" %}
     <dd class="accordion-navigation">
-      <a href="#panel{{ forloop.index }}" onclick="ga('send', 'event', 'Reading', 'Expand Tool', '{{ post.title | slugify }}')">{% include icon.html name="angle-right" %}{% include icon.html name="angle-down" %}{{ post.title }}</a>       
+      <a href="#panel{{ forloop.index }}">{% include icon.html name="angle-right" %}{% include icon.html name="angle-down" %}{{ post.title }}</a>       
       <div  id="panel{{ forloop.index }}" class="content">
         {{ post.content }}
  <p> Check it out {% if post.html %}here: {{ post.html }}{% elsif post.link %}<a href="{{ post.link }}">here.</a>{% endif %}</p>
