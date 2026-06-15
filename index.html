@@ -7,7 +7,7 @@ title: Welcome!
   <div class="small-12 columns small-centered" id="home">
   <dl class="accordion" data-accordion>
     <dd class="accordion-navigation">
-    <a id="welcomeheader" href="#welcome"><i class="fa fa-info-circle"></i>Welcome</a>
+    <a id="welcomeheader" href="#welcome">{% include icon.html name="info-circle" %}Welcome</a>
       <div id="welcome" class="content active">
         {% capture welcometext %}{% include welcome.md %}{% endcapture %}
         {{ welcometext | markdownify }}
@@ -28,7 +28,7 @@ title: Welcome!
     {% if post.published == false %}{% assign print = false %}{% endif %}
   {% if print == "true" %}
       <dd class="accordion-navigation">
-      <a href="#panel{{ forloop.index }}" onclick="ga('send', 'event', 'Reading', 'Expand Post', '{{ post.title | slugify }}')"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i>{{ post.title }}</a>
+      <a href="#panel{{ forloop.index }}" onclick="ga('send', 'event', 'Reading', 'Expand Post', '{{ post.title | slugify }}')">{% include icon.html name="angle-right" %}{% include icon.html name="angle-down" %}{{ post.title }}</a>
       <div  id="panel{{ forloop.index }}" class="content">
         <div class="text-right post-date"><em>First published on {{ post.date | date: "  %B %e, %Y" }}</em></div>
         

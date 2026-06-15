@@ -44,13 +44,13 @@
           <!-- Right Nav Section -->
           <ul class="right">
             <li class="has-dropdown">
-              <a href="#"><i class="fa fa-comments-o"></i>Let's connect</a>
+              <a href="#">{% include icon.html name="comments" %}Let's connect</a>
               <ul class="dropdown">
-                <li><a href="{{site.academia}}"><i class="fa fa-university fa-large"></i>Academia.edu</a></li>
-                <li><a href="{{site.scholar}}"><i class="fa fa-mortar-board fa-large"></i>Google Scholar</a></li>
+                <li><a href="{{site.academia}}">{% include icon.html name="university" %}Academia.edu</a></li>
+                <li><a href="{{site.scholar}}">{% include icon.html name="mortar-board" %}Google Scholar</a></li>
 {% comment %} R.I.P., old friend     <li><a href="{{site.twitter}}"><i class="fa fa-twitter fa-large"></i>Twitter</a></li> --> {% endcomment %}
-                <li><a href="{{site.github}}"><i class="fa fa-github fa-large"></i>Github</a></li>
-                <li><a href="{{site.linkedin}}"><i class="fa fa-linkedin fa-large"></i>LinkedIn</a></li>
+                <li><a href="{{site.github}}">{% include icon.html name="github" %}Github</a></li>
+                <li><a href="{{site.linkedin}}">{% include icon.html name="linkedin" %}LinkedIn</a></li>
               </ul>
             </li>
           </ul>
