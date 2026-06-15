@@ -14,41 +14,44 @@ title: Welcome!
       </div>
     </dd>
 
-{% for post in site.posts %}
-    {% assign print = "true" %}
-    {% for layout in site.special-layouts %}
-      {% if post.layout contains layout %}
+    {%- comment -%}
+      Recent activity (2020+) is data-driven. papers.yml is the comprehensive publications
+      list; only entries WITH a blurb appear here. highlights.yml entries all appear. Both
+      use YAML Dates, so they sort together cleanly.
+
+      INVARIANT: every data item is dated 2020+ and every essay (post) below is <=2019, so
+      the two blocks never interleave. If a future essay is ever dated after the oldest data
+      item, the boundary ordering would need revisiting (see Stage 2 design doc). A merged
+      cross-type sort is intentionally avoided: Liquid cannot compare a post's Time date
+      against a YAML Date.
+    {%- endcomment -%}
+    {% assign blurbed_papers = site.data.papers | where_exp: "p", "p.blurb" %}
+    {% assign recent = blurbed_papers | concat: site.data.highlights | sort: "date" | reverse %}
+    {% for item in recent %}
+      {% assign etype = item.type %}
+      {% if etype == nil and site.data.papers contains item %}{% assign etype = "paper" %}{% endif %}
+      {% include feed-entry.html title=item.title date=item.date body=item.blurb link=item.link type=etype panel_id="panel-r" anchor=forloop.index %}
+    {% endfor %}
+
+    {% comment %} Narrative essays (<=2019) remain Jekyll posts; tools and 2011/2012 hidden. {% endcomment %}
+    {% for post in site.posts %}
+      {% assign print = "true" %}
+      {% for layout in site.special-layouts %}
+        {% if post.layout contains layout %}
+          {% assign print = false %}
+        {% endif %}
+      {% endfor %}
+      {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+      {% if this_year == "2012" or this_year == "2011" %}
         {% assign print = false %}
       {% endif %}
+      {% if post.published == false %}{% assign print = false %}{% endif %}
+      {% if print == "true" %}
+        {% assign etype = "" %}
+        {% if post.video %}{% assign etype = "video" %}{% elsif post.paper %}{% assign etype = "paper" %}{% endif %}
+        {% include feed-entry.html title=post.title date=post.date body=post.content link=post.link type=etype panel_id="panel-e" anchor=forloop.index %}
+      {% endif %}
     {% endfor %}
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% if this_year == "2012" or this_year == "2011" %}
-      {% assign print = false %}
-    {% endif %}
-    {% if post.published == false %}{% assign print = false %}{% endif %}
-  {% if print == "true" %}
-      <dd class="accordion-navigation">
-      <a href="#panel{{ forloop.index }}">{% include icon.html name="angle-right" %}{% include icon.html name="angle-down" %}{{ post.title }}</a>
-      <div  id="panel{{ forloop.index }}" class="content">
-        <div class="text-right post-date"><em>First published on {{ post.date | date: "  %B %e, %Y" }}</em></div>
-        
-        {{ post.content | markdownify}}
-        
-        {% if post.link %}
-        
-        <div>
-          {% if post.video %}{% assign linktext="Watch the video" %}
-          {% elsif post.paper %}{% assign linktext="Read the paper" %}
-          {% else %}Read more on {% capture linktext %}{{ post.link | replace: 'https://', 'http://' | remove:'http://' | split:'/' | first }}{% endcapture %}{% endif %}
-          <a href="{{post.link}}">{{ linktext }}</a>
-        </div>
-        
-        {% endif %}
-      </div>
-      </dd>
-  {% endif %}
-
-{% endfor %}
 
 </dl>
 </div>

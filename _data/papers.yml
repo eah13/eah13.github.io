@@ -1,0 +1,115 @@
+# Publications. Comprehensive list; an entry appears on the homepage only if it
+# has a `blurb`. type is omitted (implicitly "paper"). Stage 3 will generate/extend
+# this file from BibTeX.
+
+- title: "Facts in the Machine"
+  link: https://doi.org/10.1002/asi.24820
+  date: 2025-02-28
+  blurb: |
+    *This paper presents a theory of the phenomenon of* system-dependent truth *using a performative approach synthesized from the work of [Karen Barad](https://people.ucsc.edu/~kbarad/about.html) and [John Searle](https://en.wikipedia.org/wiki/John_Searle). I explain how things are made true by imformation systems by identifying the agencies of* truthmaking *and* factmaking. *I note the ethical issues that this theory helps reveal and point to ways that attention to agency in information systems provides a way of centering justice in information studies.*
+
+- title: "Shaping Perceptions of Robots With Video Vantages"
+  link: https://doi.org/10.5555/3721488.3721659
+  date: 2025-02-04
+  blurb: |
+    *This study investigates the role of video vantage, "Encounterer" and "Observer", in shaping perceptions of robot social intelligence. Using videos depicting robots navigating hallways and employing gaze cues, results revealed that the Observer vantage consistently yielded higher ratings for perceived social intelligence compared to the Encounterer vantage. These findings underscore the impact of vantage on interpreting robot behaviors and highlight the need for careful design of video-based HRI studies to ensure accurate and generalizable insights for real-world applications.*
+
+    *With collaborators [Yao-Cheng Chan](https://yaochengchan.com/) and [Sadanand Modak](https://scholar.google.com/citations?user=yEPOWSYAAAAJ&hl=en)*
+
+- title: "Toward an Etiology of Harm for Knowledge Organization"
+  link: https://doi.org/10.5771/0943-7444-2024-7-495
+  date: 2024-12-15
+  blurb: |
+    *We define onto-epistemic injustice
+    as a harm to knowers accomplished simultaneously through what they can or cannot know (epistemic harm proper) and also through what
+    thereby does or does not exist (ontological harm). Whereas epistemicide is the destruction of the ability to know, onto-epistemicide is the
+    concomitant destruction of the ability to become. Onto-epistemicide is the cumulative and compounding result of onto-epistemic injustices.*
+
+    *Blending insights from document phenomenology with prior examinations of epistemic injustice, we undertake two comparative descriptive
+    case studies examining how the consensus making processes of classificatory systems of record result in onto-epistemic injustice:
+    A) The Medical Subject Headings from the U.S. National Library of Medicine (NLM-MeSH) and
+    B) The Digital Collections from the Alabama Department of Archives and History (ADAH).*
+
+    *In locating documental experiences of knowing and non-documental experiences of becoming, our
+    onto-epistemic injustice analysis reveals the outcomes in these cases extend beyond harming the ability to know. Rather, knowers' identities
+    and most worryingly their ability to become are simultaneously at stake.*
+
+    *With collaborators [Tyler Youngman](https://scholar.google.com/citations?user=Rmm0jewAAAAJ&hl=en) and [Beth Patin](https://scholar.google.com/citations?user=XCEu8XwAAAAJ&hl=en) of the [Syracuse University iSchool](https://ischool.syracuse.edu/).*
+
+- title: "Accomplishing Robotic Autonomy: Sociotechnical Care and Agency in the Laboratory"
+  link: https://doi.org/10.30658/hmc.9.9
+  date: 2024-11-24
+  blurb: |
+    *Effective ethical interventions in emerging technologies such as robotic autonomy
+    demand situated understandings of the practices that shape them. Drawing upon a year of
+    participatory ethnography, this study examines the sociomaterial practices used to accomplish robotic agency in an engineering research laboratory. Ironically, the robot was often
+    a helpless, even pathetic, figure. Roboticists displayed an attitude of surprisingly genuine, diligent, and self-effacing care toward the robot as they helped enable it to perform
+    basic competencies such as picking up a bottle. Using a practice theory, we show how
+    roboticists' care practices, motivated and sustained by anticipatory narratives of robotic
+    agency, accomplish robotic autonomy. We argue that interventions must acknowledge
+    and engage with the complex dynamics of technologists' care to be effective.*
+
+    *With collaborator [Yifan Xu](https://scholar.google.com/citations?user=FoCa8TYAAAAJ&hl=en) from the UT Austin Department of Organizational Communication.*
+
+- title: "Vid2RealHRI: Align video-based HRI with the real-world"
+  link: https://doi.org/10.1109/RO-MAN60168.2024.10731413
+  date: 2024-10-30
+  blurb: |
+    *HRI research using autonomous robots in real-world settings can produce results with the highest ecological validity of any study modality, but many difficulties limit such studies' feasibility and effectiveness. We propose Vid2RealHRI, a research framework to maximize real-world insights offered by video-based studies.*
+
+    *The Vid2RealHRI framework was used to design an online study using first-person videos of robots as real-world encounter surrogates. The online study (n = 385) distinguished the within-subjects effects of four robot behavioral conditions on perceived social intelligence and human willingness to help the robot enter an exterior door. A real-world, between- subjects replication (n = 26) using two conditions confirmed the validity of the online study's findings and the sufficiency of the participant recruitment target (22) based on a power analysis of online study results. The Vid2RealHRI framework offers HRI researchers a principled way to take advantage of the efficiency of video-based study modalities while generating directly transferable knowledge of real-world HRI.*
+
+    *Collaborative work with my doctoral student [Yao-Cheng Chan](https://yaochengchan.com/), robotics doctoral student [Sadanand Modak](https://scholar.google.com/citations?user=yEPOWSYAAAAJ&hl=en), and Texas Robotics colleagues [Joydeep Biswas](https://www.joydeepb.com/) and [Justin Hart](http://justinhart.net/).*
+
+    *This work was supported by NSF grant #2219236 and UT Austin's Good Systems initiative.*
+
+    Preprint and Data: [https://vid2real.github.io/vid2realHRI](https://vid2real.github.io/vid2realHRI)
+
+- title: "Nurses’ Perspectives of Care Robots for Assisted Living Facilities"
+  link: https://doi.org/10.2196/58629
+  date: 2024-09-16
+  blurb: |
+    *Care robots have been proposed in response to nursing shortages in assisted living facilities (ALFs) and the growing population of older adults. While the use of care robots may improve the general health and well-being of older adults, their introduction changes the work of nursing staff fundamentally, and it has implications for the entire health care system. In developing such technology, it is important to include end users, but so far, the nursing staff's perspectives have largely been ignored.
+    This study aims to examine the literature on nursing staff's attitudes, needs, and preferences related to the use of care robots in ALFs, in order to discover gaps in the literature and guide future research.*
+
+    *...[We found] there was consensus among nursing staff that care robots should serve as nursing assistants to reduce workload. Whether robots could or should assist with social tasks remains a question. Further research is needed to mitigate nursing staff's concerns and understand the socioecological factors that influence their perspectives of care robots and their adoption in Assisted Living Facilities..*
+
+    *With collaborators Katie Trainum and Bo Xie of the UT Austin School of Nursing and Jiaying Liu of the UT iSchool.*
+
+- title: "Participatory Observation Methods Within Data-Intensive Science"
+  link: https://doi.org/10.1007/978-3-031-57850-2_19
+  date: 2024-04-09
+  blurb: |
+    An account of the participatory methods I and the other members of the evaluation team on a NSF Cybertraining grant used to simultaneously help teach scientists data-intensive workflows and produce social science of science knowledge about science practices.
+
+    *This paper presents a framework enabling qualitative researchers to gain rich participatory access to study scientific practices within collaborative, funded research projects. Participatory observation methods provide unique access to scientific sites for social studies of science but require authentic and mutually beneficial motivations for qualitative researchers' participation. We illustrate a successful approach to configuring such collaborations by presenting the case of our participatory observation of an intensive NSF-funded Data-Intensive Science (DIS) training, as members of the evaluation team. We detail how our dual-purpose data collection methods informed both funder-facing evaluation materials and our own subsequent research publications, completed in parallel to the training's core objectives. We organize our site-specific findings on scientific practice around the themes of Technology, Practices, and Culture. Participatory evaluation of grant funded science is a rich and under-utilized form of site access for sociotechnical researchers that can facilitate mutually beneficial scientific convergence.*
+
+    [PDF available on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4799578)
+
+    Collaborative work with [Will Sutherland](https://willsutherland.com/) and [Mohammad Hossein Jarrahi](https://www.jarrahi.com/)
+
+- title: "Influencing Incidental Human-Robot Encounters"
+  link: https://hdl.handle.net/10125/106464
+  date: 2024-01-04
+  blurb: |
+    Relatively simple changes in the quadrupedal Boston Dynamics Spot robot's non-functional movements positively improved pedestrians' evaluations of it. This demonstrates that adjusting the non-functional motion of mobile service robots is a viable intervention to improve incidental encounters with robots in public spaces.
+
+    Collaborative work with my doctoral student [Yao-Cheng Chan](https://yaochengchan.com/), undergraduate researchers Ruchi Bhalani, Alekhya Kuchimanchi, and Hanaa Siddiqui, and Texas Robotics colleague [Justin Hart](http://justinhart.net/).
+
+- title: "Making-to-be: Documents, Facta, and Material-Discursive Agency"
+  link: https://ideaexchange.uakron.edu/docam/vol10/iss2/3/
+  date: 2024-01-03
+  blurb: |
+    A paper outlining some directions for my future theoretical research.
+
+    *Abstract: This paper presents the performative analysis of agency within and surrounding documents as a path towards uniting the otherwise incompatible insights of both meaningcentric and materialcentric approaches. I contrast the terms agentical, providing agency, and agentic, possessing agency, to help clarify the apparent incompatibilities of prior approaches. I argue that a relational conception of agency, wherein the agentical/agentic distinction is blurred, preserves important virtues of both meaning and materialcentric approaches to documents. This paves the way for a unified materialdiscursive account of documents and a cure for document studies' inherited duality malady. Extending prior work on capta (Drucker, 2011) and the agency of truthmaking, I propose the more general concept of facta, the madetobe. I briefly outline the research program this term suggests: investigating this agency of documental making, its agentical and agentic dynamics, and progressing towards a unitary understanding of documents' meaning and materiality. In short, I outline a novel approach to a central question in document studies: how do documents come to matter?*
+
+- title: "Understanding Reactions in Human-Robot Encounters"
+  link: https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/pra2.771
+  date: 2023-10-31
+  blurb: |
+    *This paper presents an emerging theory of factors influencing the experience of encountering an autonomous quadruped robot, based on analysis of interviews conducted in our lab at Texas Robotics.*
+
+    *Collaborative work with my doctoral student [Yao-Cheng Chan](https://yaochengchan.com/), who was lead author and presented the paper at [ASIS&T 2023](https://www.asist.org/am23/) in London, England.*
+
+    *This work was supported by NSF grant #2219236 and UT Austin's Good Systems initiative.*
