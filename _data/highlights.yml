@@ -1,0 +1,61 @@
+# Curated non-paper homepage items (talks, news). All are shown on the homepage.
+# `type: video` gets the "Watch the video" label; entries with no type get the
+# default "Read more on <domain>" label.
+
+- title: "What's that Robot Doing Here?"
+  link: https://vimeo.com/856405441
+  date: "2023-07-11"
+  type: video
+  blurb: |
+    *I presented a collaborative research on a laboratory of quadruped robot encounters at the 1st annual [Trustworthy Autonomous Systems (TAS) Symposium](https://symposium.tas.ac.uk/) in Edinburgh, Scotland. The paper reports that identifying the robot's role and purpose are central concerns for participants and identifies methodological challenges of human-robot encounters research.*
+
+    [Read the paper on the ACM digital library](https://doi.org/10.1145/3597512.3599707)
+
+- title: "Living and Working With Robots Research Update"
+  link: https://youtu.be/3Kz4CRIRw-0
+  date: "2022-04-08"
+  type: video
+  blurb: |
+    *I was honored to present an update on the [Living and Working with Robots](https://bridgingbarriers.utexas.edu/projects/living-and-working-with-robots) Core Research Project at the 2022 Good Systems Symposium. In this presentation I use "ethical asterisks" to indicate areas of our research that spark ethical concerns, and "disciplinary daggers" to help translate the general terms I use into their field-specific forms when necessary.*
+
+    *Find the full program along with videos of the keynotes, panels, other projects' updates on the [event highlights website](https://bridgingbarriers.utexas.edu/news/highlights-2022-good-systems-symposium)*
+
+- title: "Hiring a Postdoc in Sociotechnical Studies of Robotics"
+  link: https://apply.interfolio.com/105047
+  date: "2022-04-01"
+  blurb: |
+    **Update: this post is now filled. Welcome to UT Austin, [Boh Chun](https://www.researchgate.net/profile/Bohkyung-Chun-2)!**
+
+    *Come work with me! Applications due May 1, 2022, with an anticipated start on September 1, 2022.*
+
+    *"The Living and Working with Robots (LWR) project at UT Austin invites applications for a postdoctoral fellow who conducts sociotechnical research at the intersection of emerging technologies and real-world communities. As a Core Research Project of the Good Systems Research Grand Challenge, the LWR project's mission is to build and study robot systems designed to benefit the specific communities in which they are deployed. The selected researcher will become a valued member of our multidisciplinary team, supervised by LWR Co-Lead Dr. Elliott Hauser of the School of Information. The fellow is expected to collaborate on existing LWR projects and to lead one or more independent research projects involving our site. An individualized mentoring and career development plan will include a secondary faculty mentor, chosen by mutual agreement, and peer mentoring opportunities with other UT Austin postdoctoral fellows. Compensation includes salary, benefits, and generous research and travel support."*
+
+- title: "HRI 2022 Workshop: Longitudinal Social Impacts of HRI"
+  link: https://sites.google.com/view/lsi-hri/home
+  date: "2022-03-07"
+  blurb: |
+    *I'm a co-organizer of the Longitudinal Social Impacts of HRI over Long-Term Deployments Workshop at ACM/IEEE International Conference on Human-Robot Interaction, along with several other [Living and Working with Robots Co-Leads](https://bridgingbarriers.utexas.edu/projects/living-and-working-with-robots): Justin Hart, Samuel Baker, Joydeep Biswas, Junfeng Jiao, and Luis Sentis. Invited speakers include [Reid Simmons](http://www.cs.cmu.edu/~reids/), [Maja Matarić](https://robotics.usc.edu/~maja/), [Stefanie Tellex](https://cs.brown.edu/people/stellex/), and [Selma Sabanović](https://homes.luddy.indiana.edu/selmas/).*
+
+    *"As the world sees robots begin to inhabit places designed for people - delivery robots on city streets, and robots with jobs in airports, shopping malls, and in the home - we expect the importance of understanding these impacts to grow. By bringing together researchers interested in longitudinal studies on real-world human-interactive long-term deployments, we hope to arrive at a clearer vision of how best to study these systems."*
+
+- title: "CFP: Community-Robot Reconfigurations at 4S 2022"
+  link: https://www.4sonline.org/24-community-robot-reconfigurations-living-and-working-amidst-autonomy/
+  date: "2022-02-28"
+  blurb: |
+    *I am organizing an open panel (mini-track) at the 2022 Society for Social Studies of Science (4S) Annual Meeting in Cholula, Mexico, with [EunJeong Cheon](https://www.eunjeongcheon.com/), [Justin Hart](http://justinhart.net/), and [Swapna Joshi](https://swapnajoshi.com/). Consider [submitting an abstract](https://convention2.allacademic.com/one/ssss/ssss22/) and hope to see you in December!*
+
+    *"Living and working in community inevitably occasions experiences of the other, and automated technologies form a new kind of 'other' layered into these complex spaces. Phenomena of life and work amidst new technologies are studied by many disciplines. However, have we fully understood how the growth of autonomous technologies within communities is reconfiguring each? Do we have the methodological tools and access to this phenomenon to even gauge whether we understand it? Can we keep the racial, economic, political, and cultural complexity of communities in view when studying automation?"*
+
+- title: "Interview: Bringing Robots into the Real World"
+  link: https://medium.com/good-systems/bringing-robots-into-the-real-world-q-a-with-peter-stone-and-elliott-hauser-86c1c7ebaf04
+  date: "2021-11-11"
+  blurb: |
+    *[Peter Stone](https://www.cs.utexas.edu/~pstone/) and I discuss the Living and Working With Robots cross-campus collaboration at UT Austin, funded by [Good Systems](https://bridgingbarriers.utexas.edu/good-systems/), a UT Grand Challenge.*
+
+    *"Instead of saying, "We have this technology, let's apply it," our goal is to identify the right problem before we try to solve it with robotics. We're prepared to hear responses like "robots don't make sense here," and we're going in with open minds and expect to be surprised. What can library staff and patrons teach us about how they work and what they value? It's a really different way of working that requires time, patience, and resources."*
+
+- title: "Joining the Faculty at UT Austin's iSchool"
+  link: https://ischool.utexas.edu/news/ischool-welcomes-dr-elliott-hauser
+  date: "2020-05-07"
+  blurb: |
+    *"The University of Texas at Austin School of Information is pleased to welcome Dr. Elliott Hauser, who will be joining us as an assistant professor in August 2020. He comes to the iSchool from the University of North Carolina at Chapel Hill, where he earned his Ph.D. in Information Science in December 2019."*
